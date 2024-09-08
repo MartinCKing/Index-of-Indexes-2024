@@ -48,7 +48,7 @@
             width: 150px; /* Category */
         }
         th:nth-child(4), td:nth-child(4) {
-            width: auto; /* Information column takes the rest of the space */
+            width: auto; /* Title column takes the rest of the space */
         }
         .filter-container {
             display: flex;
@@ -78,6 +78,7 @@
 
 <!-- Wrap the table in a container to center it -->
 <div class="table-container">
+    <h2>CSV Table Display</h2>
     <table id="csvTable">
         <thead>
             <tr>
@@ -106,9 +107,9 @@
                     </div>
                 </th>
                 <th>
-                    Information
+                    Title
                     <div class="filter-container">
-                        <input type="text" id="searchInput" class="search-input" onkeyup="filterTable()" placeholder="Search Information..">
+                        <input type="text" id="searchInput" class="search-input" onkeyup="filterTable()" placeholder="Search Title..">
                     </div>
                 </th>
             </tr>
@@ -198,14 +199,14 @@
             const date = row[0].toUpperCase();
             const agency = row[1].toUpperCase();
             const category = row[2].toUpperCase();
-            const information = row[3].toUpperCase();
+            const title = row[3].toUpperCase();
 
             const matchesDate = dateFilter === "" || date === dateFilter;
             const matchesAgency = agencyFilter === "" || agency === agencyFilter;
             const matchesCategory = categoryFilter === "" || category === categoryFilter;
-            const matchesInformation = searchInput === "" || information.includes(searchInput);
+            const matchesTitle = searchInput === "" || title.includes(searchInput);
 
-            return matchesDate && matchesAgency && matchesCategory && matchesInformation;
+            return matchesDate && matchesAgency && matchesCategory && matchesTitle;
         });
 
         renderTable(filteredData);
