@@ -41,20 +41,6 @@
         tr:nth-child(even) {
             background-color: #e6f2ff; /* Light blue */
         }
-        /* Set the width for the Date column to ensure full date is displayed */
-        th:nth-child(1), td:nth-child(1) {
-            width: 180px; /* Adjust based on the length of the date you expect (e.g., "September 9, 2024") */
-        }
-        /* Adjust the width of the Agency and Category columns to fit content */
-        th:nth-child(2), td:nth-child(2) {
-            width: 250px; /* Agency */
-        }
-        th:nth-child(3), td:nth-child(3) {
-            width: 150px; /* Category */
-        }
-        th:nth-child(4), td:nth-child(4) {
-            width: auto; /* Title column takes the rest of the space */
-        }
         .filter-container {
             display: flex;
             gap: 10px;
@@ -128,20 +114,35 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        loadCSVData(); // Load the CSV when the page is loaded
-    });
-
     let tableData = []; // Store the parsed data for filtering
     let dateURLMapping = {}; // Mapping for Date to URL from URL.csv
 
-    // Load the URL.csv file and map the dates to URLs
-    function loadURLData() {
-        return fetch('URL.csv')
+    // Function to load the CSV files using fetch
+    function loadCSVFiles() {
+        // Load Index of Indexes 2024.csv
+        fetch('Index of Indexes 2024.csv')
             .then(response => response.text())
             .then(data => {
                 Papa.parse(data, {
-                    complete: function (results) {
+                    complete: function(results) {
+                        console.log('Parsed Index of Indexes:', results.data); // Debug log
+                        tableData = results.data.slice(1).map(row => row.slice(0, 4)); // Only take the first 4 columns
+                        renderTable(tableData);
+                        populateFilters(tableData);
+                    },
+                    skipEmptyLines: true
+                });
+            })
+            .catch(error => {
+                console.error('Error loading Index of Indexes 2024.csv:', error);
+            });
+
+        // Load URL.csv
+        fetch('URL.csv')
+            .then(response => response.text())
+            .then(data => {
+                Papa.parse(data, {
+                    complete: function(results) {
                         results.data.forEach(row => {
                             const date = row[0];
                             const url = row[1];
@@ -149,50 +150,27 @@
                                 dateURLMapping[date] = url; // Map each date to its corresponding URL
                             }
                         });
-                        console.log('Date to URL Mapping:', dateURLMapping); // Check if mapping is correct
+                        console.log('Date to URL Mapping:', dateURLMapping); // Debug log
                     },
-                    skipEmptyLines: true, // Skip empty lines
-                    header: true // Assume the first row contains headers (Date, URL)
+                    skipEmptyLines: true
                 });
             })
             .catch(error => {
-                console.error('Error loading URL CSV file:', error);
+                console.error('Error loading URL.csv:', error);
             });
     }
 
-    function loadCSVData() {
-        // Load URL mapping first
-        loadURLData().then(() => {
-            // Fetch the CSV file located in the same folder as the page
-            fetch('Index of Indexes 2024.csv')
-                .then(response => response.text())
-                .then(data => {
-                    // Parse the CSV data using PapaParse
-                    Papa.parse(data, {
-                        complete: function (results) {
-                            const rows = results.data;
-                            // Only use the first 4 columns
-                            tableData = rows.slice(1).map(row => row.slice(0, 4)); // Get first 4 columns
-                            renderTable(tableData);
-                            populateFilters(tableData);
-                        },
-                        skipEmptyLines: true, // Skips empty lines
-                        header: false // We manually handle headers
-                    });
-                })
-                .catch(error => {
-                    console.error('Error loading CSV file:', error);
-                });
-        });
-    }
+    // Load the CSV files when the page loads
+    window.onload = function() {
+        loadCSVFiles();
+    };
 
+    // Render the table based on the tableData
     function renderTable(data) {
         const tableBody = document.getElementById('tableBody');
-
-        // Populate table rows with hyperlinked dates using the dateURLMapping
         tableBody.innerHTML = data.map(row => {
-            const date = row[0]; // Get the date from the row
-            const dateLink = dateURLMapping[date] || '#'; // Get the link from the URL.csv mapping or default to '#'
+            const date = row[0];
+            const dateLink = dateURLMapping[date] || '#'; // Link the date if available
             return `<tr>
                 <td><a href="${dateLink}" target="_blank">${date}</a></td>
                 ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
@@ -200,6 +178,7 @@
         }).join('');
     }
 
+    // Populate the filters for Date, Agency, and Category
     function populateFilters(data) {
         const dateFilter = document.getElementById('dateFilter');
         const agencyFilter = document.getElementById('agencyFilter');
@@ -224,11 +203,13 @@
         populateDropdown(categoryFilter, Array.from(categories));
     }
 
+    // Populate the dropdown filters with options
     function populateDropdown(dropdown, items) {
         dropdown.innerHTML = '<option value="">Select ' + dropdown.id.replace('Filter', '') + '</option>' +
             items.map(item => `<option value="${item}">${item}</option>`).join('');
     }
 
+    // Filter the table based on selected filters and search input
     function filterTable() {
         const dateFilter = document.getElementById('dateFilter').value.toUpperCase();
         const agencyFilter = document.getElementById('agencyFilter').value.toUpperCase();
@@ -241,15 +222,15 @@
             const category = row[2].toUpperCase();
             const title = row[3].toUpperCase();
 
-            const matchesDate = dateFilter === "" || date === dateFilter;
-            const matchesAgency = agencyFilter === "" || agency === agencyFilter;
-            const matchesCategory = categoryFilter === "" || category === categoryFilter;
-            const matchesTitle = searchInput === "" || title.includes(searchInput);
+            const matchesDate = !dateFilter || date === dateFilter;
+            const matchesAgency = !agencyFilter || agency === agencyFilter;
+            const matchesCategory = !categoryFilter || category === categoryFilter;
+            const matchesTitle = !searchInput || title.includes(searchInput);
 
             return matchesDate && matchesAgency && matchesCategory && matchesTitle;
         });
 
-        renderTable(filteredData);
+        renderTable(filteredData); // Re-render the table with the filtered data
     }
 </script>
 
