@@ -6,7 +6,7 @@
     <title>Index of Indexes 2024 Search Engine</title>
     <style>
         body {
-            font-family: 'Sans-serif'; /* Use Sans-serif font */
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Use LinkedIn's font stack */
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -40,6 +40,10 @@
         /* Apply alternating blue bands */
         tr:nth-child(even) {
             background-color: #e6f2ff; /* Light blue */
+        }
+        /* Make the Date column wider by 2 extra characters (about 16-20px wider) */
+        th:nth-child(1), td:nth-child(1) {
+            width: 200px; /* Adjust based on your layout (default 180px + 20px = 200px) */
         }
         .filter-container {
             display: flex;
