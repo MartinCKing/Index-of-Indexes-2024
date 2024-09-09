@@ -153,10 +153,22 @@
     function renderTable(data) {
         const tableBody = document.getElementById('tableBody');
 
-        // Populate table rows
-        tableBody.innerHTML = data.map(row => `
-            <tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`
-        ).join('');
+        // Mapping of dates to LinkedIn URLs (replace these URLs with actual ones)
+        const dateLinks = {
+            "September 9, 2024": "https://www.linkedin.com/pulse/index-2024-medtech-leading-voice-regulatory-roundup-martin-king-np1be/",
+            "September 10, 2024": "https://example.com/another-link", // Replace with actual links
+            // Add more dates and corresponding URLs as necessary
+        };
+
+        // Populate table rows with hyperlinked dates
+        tableBody.innerHTML = data.map(row => {
+            const date = row[0]; // Get the date from the row
+            const dateLink = dateLinks[date] || '#'; // Get the link or default to #
+            return `<tr>
+                <td><a href="${dateLink}" target="_blank">${date}</a></td>
+                ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
+            </tr>`;
+        }).join('');
     }
 
     function populateFilters(data) {
