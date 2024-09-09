@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of Indexes 2024 Search Engine</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            padding: 20px;
+        }
+        .table-container {
+            display: block;
+            margin: auto;
+            width: 100%;
+            max-width: 1200px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+            word-wrap: break-word;
+            white-space: normal;
+        }
+        tr:nth-child(even) {
+            background-color: #e6f2ff;
+        }
+        th:nth-child(1), td:nth-child(1) {
+            width: 200px;
+        }
+        .filter-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .filter-container select, .filter-container input {
+            padding: 5px;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQG2JnDxMRfDVA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720270924452?e=1731542400&v=beta&t=8hC7JHur8KiFXqSdI3cUN2Pjc-3zGqd2_O9iSTcyaX8" alt="LinkedIn QARA Image" style="width:100%; max-width:1000px; display:block; margin:auto;"/>
+
+    <h1>Index Search Engine 2024: MedTech Leading Voice Regulatory Roundup</h1>
+
+    <div class="table-container">
+        <table id="csvTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Agency</th>
+                    <th>Category</th>
+                    <th>Title</th>
+                    <th>Ask AI</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script>
+    function loadCSV() {
+        fetch('Index of Indexes 2024.csv')
+            .then(response => response.text())
+            .then(data => {
+                const parsedData = Papa.parse(data, {header: true, skipEmptyLines: true}).data;
+                const tableBody = document.getElementById('tableBody');
+                let tableHtml = '';
+                parsedData.forEach(({Date, Agency, Category, Title}) => {
+                    tableHtml += `
+                        <tr>
+                            <td>${Date}</td>
+                            <td>${Agency}</td>
+                            <td>${Category}</td>
+                            <td>${Title}</td>
+                            <td><a href="https://martincking.github.io/LinkedIn-QARA---Med-Minds/" onclick="copyToQuery('${Agency}', '${Category}', '${Title}')">Ask ✅LinkedIn QARA - Med Minds🔎</a></td>
+                        </tr>
+                    `;
+                });
+                tableBody.innerHTML = tableHtml;
+            });
+    }
+
+    function copyToQuery(Agency, Category, Title) {
+        const query = `${Agency} ${Category} ${Title}`;
+        const el = document.createElement('textarea');
+        el.value = query;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        alert('Copied: ' + query);
+    }
+
+    window.onload = loadCSV;
+</script>
+
+</body>
+</html>
