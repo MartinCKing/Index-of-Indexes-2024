@@ -7,19 +7,24 @@
     <style>
         body {
             font-family: 'Sans-serif'; /* Use Sans-serif font */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            padding: 20px;
         }
         /* Center the table */
         .table-container {
             display: block;
             margin: 20px auto;
-            width: 90%; /* Adjust the width of the table container as needed */
+            width: 100%; /* Full width to ensure proper scrolling */
             max-width: 1200px; /* Limit maximum width */
+            overflow-x: auto; /* Horizontal scrolling for large tables */
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            max-height: 500px;
-            overflow-y: auto;
         }
         th, td {
             padding: 10px;
@@ -71,50 +76,52 @@
 </head>
 <body>
 
-<!-- Add the image and the bold heading -->
-<img src="https://media.licdn.com/dms/image/v2/D4E12AQG2JnDxMRfDVA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720270924452?e=1731542400&v=beta&t=8hC7JHur8KiFXqSdI3cUN2Pjc-3zGqd2_O9iSTcyaX8" alt="LinkedIn QARA Image" style="width:100%; max-width:1000px; display:block; margin:auto;"/>
+<div class="container">
+    <!-- Add the image and the bold heading -->
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQG2JnDxMRfDVA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720270924452?e=1731542400&v=beta&t=8hC7JHur8KiFXqSdI3cUN2Pjc-3zGqd2_O9iSTcyaX8" alt="LinkedIn QARA Image" style="width:100%; max-width:1000px; display:block; margin:auto;"/>
 
-<h1>Index Search Engine 2024: MedTech Leading Voice Regulatory Roundup</h1>
+    <h1>Index Search Engine 2024: MedTech Leading Voice Regulatory Roundup</h1>
 
-<!-- Wrap the table in a container to center it -->
-<div class="table-container">
-    <table id="csvTable">
-        <thead>
-            <tr>
-                <th>
-                    Date
-                    <div class="filter-container">
-                        <select id="dateFilter" class="filter-select" onchange="filterTable()">
-                            <option value="">Select Date</option>
-                        </select>
-                    </div>
-                </th>
-                <th>
-                    Agency
-                    <div class="filter-container">
-                        <select id="agencyFilter" class="filter-select" onchange="filterTable()">
-                            <option value="">Select Agency</option>
-                        </select>
-                    </div>
-                </th>
-                <th>
-                    Category
-                    <div class="filter-container">
-                        <select id="categoryFilter" class="filter-select" onchange="filterTable()">
-                            <option value="">Select Category</option>
-                        </select>
-                    </div>
-                </th>
-                <th>
-                    Title
-                    <div class="filter-container">
-                        <input type="text" id="searchInput" class="search-input" onkeyup="filterTable()" placeholder="Search Title..">
-                    </div>
-                </th>
-            </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-    </table>
+    <!-- Wrap the table in a container to center it -->
+    <div class="table-container">
+        <table id="csvTable">
+            <thead>
+                <tr>
+                    <th>
+                        Date
+                        <div class="filter-container">
+                            <select id="dateFilter" class="filter-select" onchange="filterTable()">
+                                <option value="">Select Date</option>
+                            </select>
+                        </div>
+                    </th>
+                    <th>
+                        Agency
+                        <div class="filter-container">
+                            <select id="agencyFilter" class="filter-select" onchange="filterTable()">
+                                <option value="">Select Agency</option>
+                            </select>
+                        </div>
+                    </th>
+                    <th>
+                        Category
+                        <div class="filter-container">
+                            <select id="categoryFilter" class="filter-select" onchange="filterTable()">
+                                <option value="">Select Category</option>
+                            </select>
+                        </div>
+                    </th>
+                    <th>
+                        Title
+                        <div class="filter-container">
+                            <input type="text" id="searchInput" class="search-input" onkeyup="filterTable()" placeholder="Search Title..">
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
 </div>
 
 <!-- Include PapaParse CDN for parsing CSV -->
@@ -142,6 +149,7 @@
                                 dateURLMapping[date] = url; // Map each date to its corresponding URL
                             }
                         });
+                        console.log('Date to URL Mapping:', dateURLMapping); // Check if mapping is correct
                     },
                     skipEmptyLines: true, // Skip empty lines
                     header: true // Assume the first row contains headers (Date, URL)
