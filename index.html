@@ -126,44 +126,65 @@
     });
 
     let tableData = []; // Store the parsed data for filtering
+    let dateURLMapping = {}; // Mapping for Date to URL from URL.csv
 
-    function loadCSVData() {
-        // Fetch the CSV file located in the same folder as the page
-        fetch('Index of Indexes 2024.csv')
+    // Load the URL.csv file and map the dates to URLs
+    function loadURLData() {
+        return fetch('URL.csv')
             .then(response => response.text())
             .then(data => {
-                // Parse the CSV data using PapaParse
                 Papa.parse(data, {
                     complete: function (results) {
-                        const rows = results.data;
-                        // Only use the first 4 columns
-                        tableData = rows.slice(1).map(row => row.slice(0, 4)); // Get first 4 columns
-                        renderTable(tableData);
-                        populateFilters(tableData);
+                        results.data.forEach(row => {
+                            const date = row[0];
+                            const url = row[1];
+                            if (date && url) {
+                                dateURLMapping[date] = url; // Map each date to its corresponding URL
+                            }
+                        });
                     },
-                    skipEmptyLines: true, // Skips empty lines
-                    header: false // We manually handle headers
+                    skipEmptyLines: true, // Skip empty lines
+                    header: true // Assume the first row contains headers (Date, URL)
                 });
             })
             .catch(error => {
-                console.error('Error loading CSV file:', error);
+                console.error('Error loading URL CSV file:', error);
             });
+    }
+
+    function loadCSVData() {
+        // Load URL mapping first
+        loadURLData().then(() => {
+            // Fetch the CSV file located in the same folder as the page
+            fetch('Index of Indexes 2024.csv')
+                .then(response => response.text())
+                .then(data => {
+                    // Parse the CSV data using PapaParse
+                    Papa.parse(data, {
+                        complete: function (results) {
+                            const rows = results.data;
+                            // Only use the first 4 columns
+                            tableData = rows.slice(1).map(row => row.slice(0, 4)); // Get first 4 columns
+                            renderTable(tableData);
+                            populateFilters(tableData);
+                        },
+                        skipEmptyLines: true, // Skips empty lines
+                        header: false // We manually handle headers
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading CSV file:', error);
+                });
+        });
     }
 
     function renderTable(data) {
         const tableBody = document.getElementById('tableBody');
 
-        // Mapping of dates to LinkedIn URLs (replace these URLs with actual ones)
-        const dateLinks = {
-            "September 9, 2024": "https://www.linkedin.com/pulse/index-2024-medtech-leading-voice-regulatory-roundup-martin-king-np1be/",
-            "September 10, 2024": "https://example.com/another-link", // Replace with actual links
-            // Add more dates and corresponding URLs as necessary
-        };
-
-        // Populate table rows with hyperlinked dates
+        // Populate table rows with hyperlinked dates using the dateURLMapping
         tableBody.innerHTML = data.map(row => {
             const date = row[0]; // Get the date from the row
-            const dateLink = dateLinks[date] || '#'; // Get the link or default to #
+            const dateLink = dateURLMapping[date] || '#'; // Get the link from the URL.csv mapping or default to '#'
             return `<tr>
                 <td><a href="${dateLink}" target="_blank">${date}</a></td>
                 ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
