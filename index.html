@@ -174,7 +174,7 @@
     function askCoPilot(agency, category, title) {
         const query = `${agency} ${category} ${title}`;
         const encodedQuery = encodeURIComponent(query);
-        const copilotLink = `https://www.bing.com/chat?text=${encodedQuery}`;
+        const copilotLink = `https://www.bing.com/search?q=${encodedQuery}`;
         
         // Copy query to clipboard
         navigator.clipboard.writeText(query).then(() => {
@@ -197,7 +197,7 @@
             const dateLink = dateURLMapping[date] || '#'; // Link the date if available
             
             return `<tr>
-                <td><button onclick="askCoPilot('${agency}', '${category}', '${title}')">CoPilot</button></td> <!-- Ask CoPilot button -->
+                <td><button onclick="askCoPilot('${agency}', '${category}', '${title}')">Bing/Copilot</button></td> <!-- Ask CoPilot button -->
                 <td><a href="${dateLink}" target="_blank">${date}</a></td>
                 ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
             </tr>`;
