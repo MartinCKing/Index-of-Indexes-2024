@@ -6,7 +6,7 @@
     <title>Index of Indexes 2024 Search Engine</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Use LinkedIn's font stack */
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -18,9 +18,9 @@
         .table-container {
             display: block;
             margin: 20px auto;
-            width: 100%; /* Full width to ensure proper scrolling */
-            max-width: 1200px; /* Limit maximum width */
-            overflow-x: auto; /* Horizontal scrolling for large tables */
+            width: 100%;
+            max-width: 1200px;
+            overflow-x: auto;
         }
         table {
             width: 100%;
@@ -30,8 +30,8 @@
             padding: 10px;
             text-align: left;
             border: 1px solid #ddd;
-            word-wrap: break-word; /* Ensure text wrapping */
-            white-space: normal; /* Wrap text */
+            word-wrap: break-word;
+            white-space: normal;
         }
         th {
             cursor: pointer;
@@ -39,11 +39,11 @@
         }
         /* Apply alternating blue bands */
         tr:nth-child(even) {
-            background-color: #e6f2ff; /* Light blue */
+            background-color: #e6f2ff;
         }
         /* Make the Date column wider by 2 extra characters (about 16-20px wider) */
-        th:nth-child(1), td:nth-child(1) {
-            width: 200px; /* Adjust based on your layout (default 180px + 20px = 200px) */
+        th:nth-child(2), td:nth-child(2) {
+            width: 200px;
         }
         .filter-container {
             display: flex;
@@ -77,6 +77,7 @@
         <table id="csvTable">
             <thead>
                 <tr>
+                    <th>Ask CoPilot</th> <!-- New ID column for Ask CoPilot link -->
                     <th>
                         Date
                         <div class="filter-container">
@@ -172,10 +173,17 @@
     // Render the table based on the tableData
     function renderTable(data) {
         const tableBody = document.getElementById('tableBody');
-        tableBody.innerHTML = data.map(row => {
+        tableBody.innerHTML = data.map((row) => {
             const date = row[0];
+            const agency = row[1];
+            const category = row[2];
+            const title = row[3];
+            const query = encodeURIComponent(`${agency} ${category} ${title}`);
+            const copilotLink = `https://www.bing.com/chat?text=${query}`;
+
             const dateLink = dateURLMapping[date] || '#'; // Link the date if available
             return `<tr>
+                <td><a href="${copilotLink}" target="_blank">Ask CoPilot</a></td> <!-- Ask CoPilot link -->
                 <td><a href="${dateLink}" target="_blank">${date}</a></td>
                 ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
             </tr>`;
