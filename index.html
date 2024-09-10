@@ -170,6 +170,22 @@
         loadCSVFiles();
     };
 
+    // Function to copy query to clipboard and redirect
+    function askCoPilot(agency, category, title) {
+        const query = `${agency} ${category} ${title}`;
+        const encodedQuery = encodeURIComponent(query);
+        const copilotLink = `https://www.bing.com/chat?text=${encodedQuery}`;
+        
+        // Copy query to clipboard
+        navigator.clipboard.writeText(query).then(() => {
+            console.log('Query copied to clipboard:', query);
+            // Redirect to Bing Chat
+            window.open(copilotLink, '_blank');
+        }).catch(err => {
+            console.error('Could not copy text to clipboard:', err);
+        });
+    }
+
     // Render the table based on the tableData
     function renderTable(data) {
         const tableBody = document.getElementById('tableBody');
@@ -178,12 +194,10 @@
             const agency = row[1];
             const category = row[2];
             const title = row[3];
-            const query = encodeURIComponent(`${agency} ${category} ${title}`);
-            const copilotLink = `https://www.bing.com/chat?text=${query}`;
-
             const dateLink = dateURLMapping[date] || '#'; // Link the date if available
+            
             return `<tr>
-                <td><a href="${copilotLink}" target="_blank">Ask CoPilot</a></td> <!-- Ask CoPilot link -->
+                <td><button onclick="askCoPilot('${agency}', '${category}', '${title}')">CoPilot</button></td> <!-- Ask CoPilot button -->
                 <td><a href="${dateLink}" target="_blank">${date}</a></td>
                 ${row.slice(1).map(cell => `<td>${cell}</td>`).join('')}
             </tr>`;
