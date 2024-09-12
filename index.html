@@ -51,19 +51,19 @@
             background-color: #ffffff;
         }
 
-        /* Specific width adjustments */
+        /* Match Select Agency dropdown and column widths */
         th:nth-child(3), td:nth-child(3), #agencyFilter { /* Agency column */
-            width: 150px; /* Reduce Agency column width */
+            width: 150px; /* Set the width for both column and select box */
         }
         th:nth-child(4), td:nth-child(4), #categoryFilter { /* Category column */
-            width: 150px; /* Reduce Category column width */
+            width: 150px; /* Set the width for both column and select box */
         }
         th:nth-child(5), td:nth-child(5), #searchInput { /* Title column */
             width: auto; /* Let the title column take up remaining space */
         }
 
         /* Consistent font styling */
-        .filter-select, #searchInput {
+        .filter-select, #searchInput, .select2-selection {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Consistent font */
             font-size: 14px; /* Adjust as needed */
             width: 100%; /* Full width for dropdown and input fields */
@@ -90,7 +90,7 @@
                 padding: 5px;
             }
 
-            .filter-select, #searchInput {
+            .filter-select, #searchInput, .select2-selection {
                 font-size: 12px;
                 width: 100%; /* Full width for dropdowns */
             }
@@ -228,6 +228,7 @@
         }).join('');
     }
 
+    // Sorting agencies alphabetically and populating filters
     function populateFilters(data) {
         const dateFilter = document.getElementById('dateFilter');
         const agencyFilter = document.getElementById('agencyFilter');
@@ -253,7 +254,10 @@
         });
 
         populateDropdown(dateFilter, Array.from(dates));
-        populateDropdown(agencyFilter, Array.from(agencies));
+
+        // Sort agencies alphabetically before populating the dropdown
+        populateDropdown(agencyFilter, Array.from(agencies).sort());
+
         populateDropdown(categoryFilter, Array.from(categories));
     }
 
