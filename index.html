@@ -229,11 +229,14 @@
         dropdown.innerHTML = '<option value="">Select ' + dropdown.id.replace('Filter', '') + '</option>' +
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
-        // Initialize Select2 without wrapping text and using column width
+        // Set width specifically for the Agency dropdown, others will use 'resolve'
+        const dropdownWidth = dropdown.id === 'agencyFilter' ? '300px' : 'resolve';
+
+        // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
             placeholder: 'Select ' + dropdown.id.replace('Filter', ''),
             allowClear: true,
-            width: 'resolve' // This will inherit the width from the column
+            width: dropdownWidth // Set a fixed width for agency dropdown
         });
     }
 
