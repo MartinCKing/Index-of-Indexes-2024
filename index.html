@@ -62,6 +62,10 @@
             align-items: center;
         }
 
+        .filter-select {
+            width: 200px; /* Adjust width for the dropdowns */
+        }
+
         h1 {
             font-size: 24px;
             font-weight: bold;
@@ -222,11 +226,11 @@
         dropdown.innerHTML = '<option value="">Select ' + dropdown.id.replace('Filter', '') + '</option>' +
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
-        // Initialize Select2 on the dropdown
+        // Initialize Select2 with a fixed width for dropdowns
         $(`#${dropdown.id}`).select2({
             placeholder: 'Select ' + dropdown.id.replace('Filter', ''),
             allowClear: true,
-            width: 'resolve'
+            width: '200px'  // Set the desired width here
         });
     }
 
