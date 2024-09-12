@@ -53,7 +53,7 @@
 
         /* Match Select Agency dropdown and column widths */
         th:nth-child(3), td:nth-child(3), #agencyFilter { /* Agency column */
-            width: 150px; /* Set the width for both column and select box */
+            width: 200px; /* Increased width for both column and select box */
         }
         th:nth-child(4), td:nth-child(4), #categoryFilter { /* Category column */
             width: 150px; /* Set the width for both column and select box */
@@ -97,7 +97,7 @@
 
             th:nth-child(3), td:nth-child(3), #agencyFilter, /* Agency */
             th:nth-child(4), td:nth-child(4), #categoryFilter /* Category */ {
-                width: 120px; /* Further reduce width on small screens */
+                width: 150px; /* Adjusted width on small screens */
             }
         }
     </style>
@@ -228,7 +228,7 @@
         }).join('');
     }
 
-    // Sorting agencies alphabetically and populating filters
+    // Sorting agencies and categories alphabetically and populating filters
     function populateFilters(data) {
         const dateFilter = document.getElementById('dateFilter');
         const agencyFilter = document.getElementById('agencyFilter');
@@ -255,10 +255,9 @@
 
         populateDropdown(dateFilter, Array.from(dates));
 
-        // Sort agencies alphabetically before populating the dropdown
+        // Sort agencies and categories alphabetically before populating the dropdowns
         populateDropdown(agencyFilter, Array.from(agencies).sort());
-
-        populateDropdown(categoryFilter, Array.from(categories));
+        populateDropdown(categoryFilter, Array.from(categories).sort());
     }
 
     function populateDropdown(dropdown, items) {
@@ -266,7 +265,7 @@
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
         // Set width specifically for the Date dropdown based on longest date length
-        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' || dropdown.id === 'categoryFilter' ? '150px' : 'resolve';
+        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' ? '200px' : dropdown.id === 'categoryFilter' ? '150px' : 'resolve';
 
         // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
