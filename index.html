@@ -9,7 +9,7 @@
     <!-- Include Select2 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
 
-    <!-- Include main CSS for the table -->
+    <!-- Main CSS for the table -->
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -27,7 +27,7 @@
             display: block;
             margin: 20px auto;
             width: 100%;
-            max-width: 1920px;
+            max-width: 1200px;
             overflow-x: auto;
         }
 
@@ -50,6 +50,18 @@
 
         tr:nth-child(odd) {
             background-color: #ffffff;
+        }
+
+        /* Adjust widths */
+        th:nth-child(3), td:nth-child(3), /* Agency */
+        th:nth-child(4), td:nth-child(4) /* Category */ {
+            width: 50%; /* Reduce by 50% */
+        }
+
+        /* Make table more responsive */
+        .table-container {
+            max-width: 100%;
+            overflow-x: auto;
         }
 
         .filter-container {
@@ -75,6 +87,24 @@
         /* Prevent text wrapping in select fields */
         .filter-select {
             white-space: nowrap;
+        }
+
+        /* Media Query to make the table responsive */
+        @media screen and (max-width: 600px) {
+            th, td {
+                font-size: 12px; /* Smaller text for better fit */
+                padding: 5px;
+            }
+
+            .filter-select {
+                font-size: 12px;
+                width: 100%; /* Full width for dropdowns */
+            }
+
+            th:nth-child(3), td:nth-child(3), /* Agency */
+            th:nth-child(4), td:nth-child(4) /* Category */ {
+                width: 50px; /* Reduce width further on small screens */
+            }
         }
     </style>
 
@@ -238,13 +268,13 @@
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
         // Set width specifically for the Date dropdown based on longest date length
-        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : 'resolve';
+        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' || dropdown.id === 'categoryFilter' ? '150px' : 'resolve';
 
         // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
             placeholder: 'Select ' + dropdown.id.replace('Filter', ''),
             allowClear: true,
-            width: dropdownWidth // Set a calculated width for date dropdown
+            width: dropdownWidth // Set reduced width for agency and category dropdowns
         });
     }
 
