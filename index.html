@@ -52,10 +52,6 @@
             background-color: #ffffff;
         }
 
-        th:nth-child(2), td:nth-child(2) {
-            width: 200px;
-        }
-
         .filter-container {
             display: flex;
             gap: 10px;
@@ -75,6 +71,11 @@
             text-align: center;
             margin-top: 20px;
         }
+
+        /* Prevent text wrapping in select fields */
+        .filter-select {
+            white-space: nowrap;
+        }
     </style>
 
     <!-- Include jQuery and Select2 JS -->
@@ -92,7 +93,7 @@
             <thead>
                 <tr>
                     <th>Ask AI Bing/CoPilot</th>
-                    <th>
+                    <th id="dateColumn">
                         Date
                         <div class="filter-container">
                             <select id="dateFilter" class="filter-select" onchange="filterTable()">
@@ -135,6 +136,7 @@
 <script>
     let tableData = []; // Store the parsed data for filtering
     let dateURLMapping = {}; // Mapping for Date to URL from URL.csv
+    let longestDateLength = 0; // To store the longest date length
 
     function loadCSVFiles() {
         fetch('Index of Indexes 2024.csv')
@@ -145,6 +147,7 @@
                         tableData = results.data.slice(1).map(row => row.slice(0, 4));
                         renderTable(tableData);
                         populateFilters(tableData);
+                        adjustDateColumnWidth(tableData);
                     },
                     skipEmptyLines: true
                 });
@@ -218,6 +221,11 @@
             dates.add(date);
             agencies.add(agency);
             categories.add(category);
+
+            // Check if this date is the longest
+            if (date.length > longestDateLength) {
+                longestDateLength = date.length;
+            }
         });
 
         populateDropdown(dateFilter, Array.from(dates));
@@ -229,15 +237,23 @@
         dropdown.innerHTML = '<option value="">Select ' + dropdown.id.replace('Filter', '') + '</option>' +
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
-        // Set width specifically for the Agency dropdown, others will use 'resolve'
-        const dropdownWidth = dropdown.id === 'agencyFilter' ? '300px' : 'resolve';
+        // Set width specifically for the Date dropdown based on longest date length
+        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : 'resolve';
 
         // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
             placeholder: 'Select ' + dropdown.id.replace('Filter', ''),
             allowClear: true,
-            width: dropdownWidth // Set a fixed width for agency dropdown
+            width: dropdownWidth // Set a calculated width for date dropdown
         });
+    }
+
+    // Adjust the Date column width based on the longest date
+    function adjustDateColumnWidth(data) {
+        const dateColumn = document.getElementById('dateColumn');
+        const longestDate = data.reduce((max, row) => row[0].length > max.length ? row[0] : max, "");
+        const dateColumnWidth = longestDate.length * 10; // Approximate width based on character length
+        dateColumn.style.width = `${dateColumnWidth}px`;
     }
 
     function filterTable() {
