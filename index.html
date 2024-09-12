@@ -52,17 +52,17 @@
         }
 
         /* Specific width adjustments */
-        th:nth-child(3), td:nth-child(3) { /* Agency column */
+        th:nth-child(3), td:nth-child(3), #agencyFilter { /* Agency column */
             width: 150px; /* Reduce Agency column width */
         }
-        th:nth-child(4), td:nth-child(4) { /* Category column */
+        th:nth-child(4), td:nth-child(4), #categoryFilter { /* Category column */
             width: 150px; /* Reduce Category column width */
         }
-
-        th:nth-child(5), td:nth-child(5) { /* Title column */
+        th:nth-child(5), td:nth-child(5), #searchInput { /* Title column */
             width: auto; /* Let the title column take up remaining space */
         }
 
+        /* Style for filter containers */
         .filter-container {
             display: flex;
             gap: 10px;
@@ -101,8 +101,8 @@
                 width: 100%; /* Full width for dropdowns */
             }
 
-            th:nth-child(3), td:nth-child(3), /* Agency */
-            th:nth-child(4), td:nth-child(4) /* Category */ {
+            th:nth-child(3), td:nth-child(3), #agencyFilter, /* Agency */
+            th:nth-child(4), td:nth-child(4), #categoryFilter /* Category */ {
                 width: 120px; /* Further reduce width on small screens */
             }
         }
