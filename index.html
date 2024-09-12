@@ -62,18 +62,12 @@
             width: auto; /* Let the title column take up remaining space */
         }
 
-        /* Style for filter containers */
-        .filter-container {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-
-        /* Prevent text wrapping in Select2 */
-        .select2-container .select2-selection--single {
-            white-space: nowrap; /* Prevent text wrapping */
-            overflow: hidden;    /* Hide overflow text */
-            text-overflow: ellipsis; /* Display ellipsis for long text */
+        /* Consistent font styling */
+        .filter-select, #searchInput {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Consistent font */
+            font-size: 14px; /* Adjust as needed */
+            width: 100%; /* Full width for dropdown and input fields */
+            box-sizing: border-box;
         }
 
         /* Title wraps to two lines */
@@ -96,7 +90,7 @@
                 padding: 5px;
             }
 
-            .filter-select {
+            .filter-select, #searchInput {
                 font-size: 12px;
                 width: 100%; /* Full width for dropdowns */
             }
@@ -150,7 +144,7 @@
                     <th>
                         Title
                         <div class="filter-container">
-                            <input type="text" id="searchInput" class="search-input" onkeyup="filterTable()" placeholder="Keyword Search Title..">
+                            <input type="text" id="searchInput" class="filter-select" onkeyup="filterTable()" placeholder="Keyword Search Title..">
                         </div>
                     </th>
                 </tr>
