@@ -62,8 +62,11 @@
             align-items: center;
         }
 
-        .filter-select {
-            width: 200px; /* Adjust width for the dropdowns */
+        /* Prevent text wrapping in Select2 */
+        .select2-container .select2-selection--single {
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: hidden;    /* Hide overflow text */
+            text-overflow: ellipsis; /* Display ellipsis for long text */
         }
 
         h1 {
@@ -226,11 +229,11 @@
         dropdown.innerHTML = '<option value="">Select ' + dropdown.id.replace('Filter', '') + '</option>' +
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
-        // Initialize Select2 with a fixed width for dropdowns
+        // Initialize Select2 without wrapping text and using column width
         $(`#${dropdown.id}`).select2({
             placeholder: 'Select ' + dropdown.id.replace('Filter', ''),
             allowClear: true,
-            width: '200px'  // Set the desired width here
+            width: 'resolve' // This will inherit the width from the column
         });
     }
 
