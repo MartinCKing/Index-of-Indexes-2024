@@ -62,17 +62,26 @@
             width: auto; /* Let the title column take up remaining space */
         }
 
-        /* Consistent font styling */
+        /* Consistent font styling for inputs and dropdowns */
         .filter-select, #searchInput, .select2-selection {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Consistent font */
-            font-size: 14px; /* Adjust as needed */
-            width: 100%; /* Full width for dropdown and input fields */
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            width: 100%;
             box-sizing: border-box;
+        }
+
+        /* Reduce font size inside dropdown options */
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            font-size: 12px; /* Selected text */
+        }
+
+        .select2-dropdown .select2-results__options {
+            font-size: 12px; /* Dropdown list text */
         }
 
         /* Title wraps to two lines */
         td:nth-child(5) {
-            white-space: normal; /* Allow title to wrap to two lines */
+            white-space: normal;
             line-height: 1.2em;
         }
 
