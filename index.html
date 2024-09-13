@@ -20,22 +20,18 @@
         
         .container {
             padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            text-align: center;
         }
     
         .table-container {
             width: 100%;
-            max-width: 1200px;
+            max-width: 100%; /* Ensure the table is 100% of the screen width */
             overflow-x: auto;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 0 auto; /* Center the table */
         }
 
         th, td {
@@ -53,12 +49,12 @@
             background-color: #ffffff;
         }
 
-        /* Match Select Agency dropdown and column widths */
+        /* Dynamic widths for each column */
         th:nth-child(3), td:nth-child(3), #agencyFilter { /* Agency column */
-            width: 200px; /* Increased width for both column and select box */
+            width: 30%; /* Adjust the width to be more flexible */
         }
         th:nth-child(4), td:nth-child(4), #categoryFilter { /* Category column */
-            width: 150px; /* Set the width for both column and select box */
+            width: 25%; /* Adjust to fit smaller screens */
         }
         th:nth-child(5), td:nth-child(5), #searchInput { /* Title column */
             width: auto; /* Let the title column take up remaining space */
@@ -74,11 +70,11 @@
 
         /* Reduce font size inside dropdown options */
         .select2-container--default .select2-selection--single .select2-selection__rendered {
-            font-size: 12px; /* Selected text */
+            font-size: 12px;
         }
 
         .select2-dropdown .select2-results__options {
-            font-size: 12px; /* Dropdown list text */
+            font-size: 12px;
         }
 
         /* Title wraps to two lines */
@@ -97,22 +93,26 @@
         /* Media Query for smaller screens */
         @media screen and (max-width: 600px) {
             th, td {
-                font-size: 12px; /* Smaller text for better fit */
-                padding: 5px;
+                font-size: 12px;
+                padding: 8px; /* Adjust padding to reduce the size of table cells */
             }
 
             .filter-select, #searchInput, .select2-selection {
-                font-size: 12px;
-                width: 100%; /* Full width for dropdowns */
+                font-size: 12px; /* Smaller font for dropdowns on mobile */
+            }
+
+            /* Ensure the table takes up full width on mobile devices */
+            table {
+                width: 100%; /* Full width on smaller screens */
             }
 
             th:nth-child(3), td:nth-child(3), #agencyFilter, /* Agency */
             th:nth-child(4), td:nth-child(4), #categoryFilter /* Category */ {
-                width: 150px; /* Adjusted width on small screens */
+                width: auto; /* Allow flexibility for smaller screens */
             }
 
-            table {
-                width: 100%; /* Ensure table takes up full width on mobile screens */
+            h1 {
+                font-size: 18px; /* Reduce the size of the header on small screens */
             }
         }
     </style>
@@ -124,7 +124,7 @@
 <body style="background-color: black;">
 
 <div class="container">
-    <img src="Regulatory%20Roundup%20Dashboard%20Index%20of%20Indexes%202024.png" alt="Centered Image">
+    <img src="Regulatory%20Roundup%20Dashboard%20Index%20of%20Indexes%202024.png" alt="Centered Image" style="max-width: 100%; height: auto;">
     <h1 style="color: white;">Index Search Engine 2024: MedTech Leading Voice Regulatory Roundup</h1>
 
     <div class="table-container">
@@ -280,7 +280,7 @@
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
         // Set width specifically for the Date dropdown based on longest date length
-        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' ? '200px' : dropdown.id === 'categoryFilter' ? '150px' : 'resolve';
+        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' ? '30%' : dropdown.id === 'categoryFilter' ? '25%' : 'resolve';
 
         // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
