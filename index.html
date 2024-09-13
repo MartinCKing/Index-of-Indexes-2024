@@ -20,12 +20,13 @@
         
         .container {
             padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
     
         .table-container {
-            display: block;
-            margin: 20px auto;
             width: 100%;
             max-width: 1200px;
             overflow-x: auto;
@@ -34,6 +35,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 0 auto; /* Center the table */
         }
 
         th, td {
@@ -107,6 +109,10 @@
             th:nth-child(3), td:nth-child(3), #agencyFilter, /* Agency */
             th:nth-child(4), td:nth-child(4), #categoryFilter /* Category */ {
                 width: 150px; /* Adjusted width on small screens */
+            }
+
+            table {
+                width: 100%; /* Ensure table takes up full width on mobile screens */
             }
         }
     </style>
