@@ -25,7 +25,7 @@
     
         .table-container {
             width: 100%;
-            max-width: 100%; /* Ensure the table is 100% of the screen width */
+            max-width: 100%;
             overflow-x: auto;
         }
 
@@ -39,7 +39,7 @@
             padding: 10px;
             text-align: left;
             border: 1px solid #ddd;
-            word-wrap: break-word; /* Ensure text wraps inside cells */
+            word-wrap: break-word;
         }
 
         tr:nth-child(even) {
@@ -50,15 +50,21 @@
             background-color: #ffffff;
         }
 
-        /* Set widths for each column */
+        /* Set specific column widths */
+        th:nth-child(1), td:nth-child(1) { /* Bing/CoPilot column */
+            width: 10%; /* Bing/CoPilot gets 10% width */
+        }
+        th:nth-child(2), td:nth-child(2) { /* Date column */
+            width: auto; /* Dynamic width based on content */
+        }
         th:nth-child(3), td:nth-child(3) { /* Agency column */
-            width: 30%;
+            width: 15%; /* Agency gets 15% width */
         }
         th:nth-child(4), td:nth-child(4) { /* Category column */
-            width: 25%;
+            width: 10%; /* Category gets 10% width */
         }
         th:nth-child(5), td:nth-child(5) { /* Title column */
-            width: auto;
+            width: auto; /* Title takes the remaining space */
         }
 
         /* Set dropdown widths to match column width */
@@ -95,26 +101,28 @@
         @media screen and (max-width: 600px) {
             th, td {
                 font-size: 12px;
-                padding: 8px; /* Adjust padding to reduce the size of table cells */
+                padding: 8px;
             }
 
             .filter-select, #searchInput, .select2-selection {
-                font-size: 12px; /* Smaller font for dropdowns on mobile */
+                font-size: 12px;
             }
 
             /* Ensure the table takes up full width on mobile devices */
             table {
-                width: 100%; /* Full width on smaller screens */
+                width: 100%;
             }
 
             /* Ensure dropdown boxes remain column width */
-            th:nth-child(3), td:nth-child(3), #agencyFilter, /* Agency */
-            th:nth-child(4), td:nth-child(4), #categoryFilter /* Category */ {
-                width: 100%; /* Make sure dropdowns stay column width */
+            th:nth-child(1), td:nth-child(1), #dateFilter, /* Bing/CoPilot */
+            th:nth-child(2), td:nth-child(2), #agencyFilter, /* Date */
+            th:nth-child(3), td:nth-child(3), #categoryFilter, /* Agency */
+            th:nth-child(4), td:nth-child(4), #searchInput { /* Category */
+                width: 100%;
             }
 
             h1 {
-                font-size: 18px; /* Reduce the size of the header on small screens */
+                font-size: 18px;
             }
         }
     </style>
@@ -282,7 +290,7 @@
             items.map(item => `<option value="${item}">${item}</option>`).join('');
 
         // Set width specifically for the Date dropdown based on longest date length
-        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' ? '30%' : dropdown.id === 'categoryFilter' ? '25%' : 'resolve';
+        const dropdownWidth = dropdown.id === 'dateFilter' ? `${longestDateLength * 10}px` : dropdown.id === 'agencyFilter' ? '15%' : dropdown.id === 'categoryFilter' ? '10%' : 'resolve';
 
         // Initialize Select2 without wrapping text and using appropriate width
         $(`#${dropdown.id}`).select2({
