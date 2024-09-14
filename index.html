@@ -193,7 +193,7 @@
             .then(data => {
                 Papa.parse(data, {
                     complete: function(results) {
-                        tableData = results.data.slice(1).map(row => row.slice(0, 4));
+                        tableData = results.data.slice(1).map(row => row.slice(0, 4)); // Slice to get first 4 columns
                         renderTable(tableData);
                         populateFilters(tableData);
                         adjustDateColumnWidth(tableData);
@@ -211,8 +211,12 @@
                         results.data.forEach(row => {
                             const date = row[0];
                             const url = row[1];
+
                             if (date && url) {
+                                // Add URL to the mapping for the corresponding date
                                 dateURLMapping[date] = url;
+                            } else {
+                                console.warn(`Missing date or URL: ${date}, ${url}`);
                             }
                         });
                     },
@@ -243,7 +247,7 @@
             const agency = row[1];
             const category = row[2];
             const title = row[3];
-            const dateLink = dateURLMapping[date] || '#';
+            const dateLink = dateURLMapping[date] || '#'; // Get URL for the date, or fallback to '#'
             
             return `<tr>
                 <td><button onclick="askCoPilot('${agency}', '${category}', '${title}')">Bing/CoPilot</button></td>
