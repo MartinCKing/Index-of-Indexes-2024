@@ -213,12 +213,12 @@
                             const url = row[1];
 
                             if (date && url) {
-                                // Add URL to the mapping for the corresponding date
                                 dateURLMapping[date] = url;
                             } else {
                                 console.warn(`Missing date or URL: ${date}, ${url}`);
                             }
                         });
+                        console.log(dateURLMapping); // Debugging output to check URL mapping
                     },
                     skipEmptyLines: true
                 });
