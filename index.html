@@ -209,12 +209,17 @@
                 Papa.parse(data, {
                     complete: function(results) {
                         results.data.forEach(row => {
-                            const date = row[0];
-                            const url = row[1];
+                            let date = row[0];
+                            let url = row[1];
                             if (date && url) {
+                                // Ensure URL starts with http:// or https://
+                                if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                                    url = 'https://' + url;
+                                }
                                 dateURLMapping[date] = url;
                             }
                         });
+                        console.log(dateURLMapping); // Log mapping for debugging
                     },
                     skipEmptyLines: true
                 });
