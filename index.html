@@ -197,7 +197,7 @@
     let longestDateLength = 0; // To store the longest date length
 
     function loadCSVFiles() {
-        fetch('Index of Indexes 2024.csv')
+        fetch('https://martincking.github.io/Index-of-Indexes-2024/Index of Indexes 2024.csv')
             .then(response => response.text())
             .then(data => {
                 Papa.parse(data, {
@@ -212,7 +212,7 @@
             })
             .catch(error => console.error('Error loading Index of Indexes 2024.csv:', error));
 
-        fetch('URL.csv')
+        fetch('https://martincking.github.io/Index-of-Indexes-2024/URL.csv')
             .then(response => response.text())
             .then(data => {
                 Papa.parse(data, {
