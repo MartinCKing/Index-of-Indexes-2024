@@ -196,23 +196,9 @@
     let dateURLMapping = {}; // Mapping for Date to URL from URL.csv
     let longestDateLength = 0; // To store the longest date length
 
+    
     function loadCSVFiles() {
-        fetch('https://martincking.github.io/Index-of-Indexes-2024/Index of Indexes 2024.csv')
-            .then(response => response.text())
-            .then(data => {
-                Papa.parse(data, {
-                    complete: function(results) {
-                        tableData = results.data.slice(1).map(row => row.slice(0, 4)); // Slice to get first 4 columns
-                        renderTable(tableData);
-                        populateFilters(tableData);
-                        adjustDateColumnWidth(tableData);
-                    },
-                    skipEmptyLines: true
-                });
-            })
-            .catch(error => console.error('Error loading Index of Indexes 2024.csv:', error));
-
-        fetch('https://martincking.github.io/Index-of-Indexes-2024/URL.csv')
+            fetch('https://martincking.github.io/Index-of-Indexes-2024/URL.csv')
             .then(response => response.text())
             .then(data => {
                 Papa.parse(data, {
@@ -233,6 +219,21 @@
                 });
             })
             .catch(error => console.error('Error loading URL.csv:', error));
+        
+        fetch('https://martincking.github.io/Index-of-Indexes-2024/Index of Indexes 2024.csv')
+            .then(response => response.text())
+            .then(data => {
+                Papa.parse(data, {
+                    complete: function(results) {
+                        tableData = results.data.slice(1).map(row => row.slice(0, 4)); // Slice to get first 4 columns
+                        renderTable(tableData);
+                        populateFilters(tableData);
+                        adjustDateColumnWidth(tableData);
+                    },
+                    skipEmptyLines: true
+                });
+            })
+            .catch(error => console.error('Error loading Index of Indexes 2024.csv:', error));
     }
 
     window.onload = function() {
