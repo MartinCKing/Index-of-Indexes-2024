@@ -556,7 +556,7 @@ Date,Agency,Category,Information
 15. July 2024,USA Food & Drug Administration FDA,Guidance,"510k Submissions, Dental Composite Resin Devices | Dental Curing Lights"
 15. July 2024,USA Food & Drug Administration FDA,SOPP,Processing and Review Management for Investigational New Drug Applications
 15. July 2024,World Health Organisation WHO,Guidance,WHO updates laboratory biosecurity guidance | Radiation safety culture Newsletter: WHO pharmaceuticals NEWSLETTER
-8. July 2024, ANVISA Brazil,Technical Note,"RDC ANVISA No. 886, of June 26, 2024"
+8. July 2024,ANVISA Brazil,Technical Note,"RDC ANVISA No. 886, of June 26, 2024"
 8. July 2024,Egyptian Drug Authority,Consultation,Guideline for Preclinical testing and clinical investigation for Medical devices
 8. July 2024,European Commission,Guidance,Update - MDCG 2021-5 Rev.1 - Guidance on standardisation for medical devices
 8. July 2024,European Commission,Factsheet,Cross-border Healthcare 2022: Recent data implementation of Dir. 2011/24/EU
@@ -811,7 +811,8 @@ Date,Agency,Category,Information
 13. May 2024,Medical Device Authority Malaysia,Circular Letter,Medical Devices Subject to Trade Restrictions
 13. May 2024,"Health Sciences Authority (HSA), Singapore",Memorandum,HSA signs memorandum of understanding with Malaysia
 13. May 2024,"Therapeutic Goods Administration (TGA), Australia",Guidance,Regulation of software based medical devices
-13. May 2024,USA Food & Drug Administration FDA,Guidance,REMS Logic Model: A Framework to Link Program Design With AssessmentGuidance: Remanufacturing of Medical Devices
+13. May 2024,USA Food & Drug Administration FDA,Guidance,REMS Logic Model: A Framework to Link Program Design With Assessment
+Guidance: Remanufacturing of Medical Devices
 13. May 2024,USA Food & Drug Administration FDA,Request for Comment,Clinical Research Terms - Innovative Clinical Trial Design
 13. May 2024,USA Food & Drug Administration FDA,Record,eSubmitter Application History
 13. May 2024,USA Food & Drug Administration FDA,Initiative,General Framework for Adopting LLMs in Regulatory Application
@@ -830,15 +831,15 @@ Date,Agency,Category,Information
 6. May 2024,Medicines and Healthcare products Regulatory Agency,Policy Paper,Impact of AI on the regulation of medical products
 6. May 2024,Medicines and Healthcare products Regulatory Agency,News,MHRA’s AI regulatory strategy ensures patient safety & industry innovation into 2030
 6. May 2024," Health Sciences Authority (HSA), Singapore",Guidance,NEX2US Newsletter Issue 10 | April 2024
-6. May 2024, International Medical Device Regulators Forum,Guidance,Assessment & Decision Process for Recognition of CAB Regulatory Reviews
-6. May 2024, International Medical Device Regulators Forum,Guidance,Competence and Training Requirements for CABs Conducting Reviews
-6. May 2024, International Medical Device Regulators Forum,Guidance,Regulatory Authority Assessment Method for CAB Review
-6. May 2024, International Medical Device Regulators Forum,Guidance,Requirements for Regulatory Authority Recognition of CABs Conducting Reviews
-6. May 2024, International Medical Device Regulators Forum,Guidance,Principles of Labelling for Medical Devices and IVD Medical Devices
-6. May 2024, International Medical Device Regulators Forum,Guidance,Essential Principles of Safety and Performance of Medical Devices and IVDs
-6. May 2024, International Medical Device Regulators Forum,Guidance,"Competence, Training, and Conduct Requirements for Reg.  Reviewers"
-6. May 2024, International Medical Device Regulators Forum,Guidance,Regulatory Review Report: Guidance Regarding Information to be Included
-6. May 2024, International Medical Device Regulators Forum,Whitepaper,IMDRF 25th Session Workshop: White Paper on Reliance
+6. May 2024,International Medical Device Regulators Forum,Guidance,Assessment & Decision Process for Recognition of CAB Regulatory Reviews
+6. May 2024,International Medical Device Regulators Forum,Guidance,Competence and Training Requirements for CABs Conducting Reviews
+6. May 2024,International Medical Device Regulators Forum,Guidance,Regulatory Authority Assessment Method for CAB Review
+6. May 2024,International Medical Device Regulators Forum,Guidance,Requirements for Regulatory Authority Recognition of CABs Conducting Reviews
+6. May 2024,International Medical Device Regulators Forum,Guidance,Principles of Labelling for Medical Devices and IVD Medical Devices
+6. May 2024,International Medical Device Regulators Forum,Guidance,Essential Principles of Safety and Performance of Medical Devices and IVDs
+6. May 2024,International Medical Device Regulators Forum,Guidance,"Competence, Training, and Conduct Requirements for Reg.  Reviewers"
+6. May 2024,International Medical Device Regulators Forum,Guidance,Regulatory Review Report: Guidance Regarding Information to be Included
+6. May 2024,International Medical Device Regulators Forum,Whitepaper,IMDRF 25th Session Workshop: White Paper on Reliance
 6. May 2024,SWISSMEDIC,Guidance,Parallel Import of a human medicinal product according to Art. 14 para. 2 and 3
 6. May 2024,SWISSMEDIC,Guidance,Guidance document for requesting product certificates (CPP)
 6. May 2024,SWISSMEDIC,Form,Meldung einer vermuteten unerwünschten Arzneimittelwirkung (UAW)
@@ -869,7 +870,7 @@ Date,Agency,Category,Information
 29. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
 29. April 2024,Department of Health The Government of the Hong Kong,MDACS,Update-Listed Rapid Antigen Tests for COVID-19 under MDACS
 29. April 2024,"NMPA-National Medical Products Administration, Peoples Republic of China",Consultation,Technical review of the laparoscopic surgical system
-29. April 2024,"SEGOB Secretariat of the Interior or the Secretariat for Governance, Mexico",Standard,"PROY-NOM-137-SSA1-2024, Labeling of medical devices."
+29. April 2024,"SEGOB Secretariat of the Interior or the Secretariat for Governance, Mexico",Standard,"PROY-NOM-137-SSA1-2024,Labeling of medical devices."
 29. April 2024,SWISSMEDIC,Form,Gesuch Betriebsbewilligung - Basisformular Arzneimittel (inkl. Blut)
 29. April 2024,SWISSMEDIC,Form,Gesuch Betriebsbewilligung - Zusatzblatt Arzneimittel (inkl. Blut)
 29. April 2024,SWISSMEDIC,Form,Gesuch Betriebsbewilligung - Basisformular TpP/GT/GVO
@@ -895,8 +896,8 @@ Date,Agency,Category,Information
 22. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Rolling review for marketing authorisation applications
 22. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,150-day assessment for national applications for medicines
 22. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,MAH submission of Nitrosamine risk and confirmatory testing
-22. April 2024, Medical Device Authority Malaysia,Announcement,Quotation Medical Device Testing Services
-22. April 2024, Medical Device Authority Malaysia,Directive,Implementation of One License Policy For Each Establisment Role
+22. April 2024,Medical Device Authority Malaysia,Announcement,Quotation Medical Device Testing Services
+22. April 2024,Medical Device Authority Malaysia,Directive,Implementation of One License Policy For Each Establisment Role
 22. April 2024,Department of Health The Government of the Hong Kong,MDACS,Update-Medical Device Information System
 22. April 2024,SWISSMEDIC,Guidance,Medical Device Software
 22. April 2024,SWISSMEDIC,Form,New authorisation of human medicinal products
@@ -918,7 +919,7 @@ Date,Agency,Category,Information
 15. April 2024,European Directorate for the Quality of Medicines & HealthCare (EDQM),Press Release,JP and Ph. Eur. launch harmonisation project for API & Finished Form
 15. April 2024,European Commission,Final Report,Study on the implementation of Article 17 of EU MDR in EU
 15. April 2024,European Commission,Dashboard,A Study & Dashboard reprocessing and reuse of single-use-devices
-15. April 2024, European Medicines Agency,Meeting,Pharmacovigilance Risk Assessment Committee 8-11 April 2024
+15. April 2024,European Medicines Agency,Meeting,Pharmacovigilance Risk Assessment Committee 8-11 April 2024
 15. April 2024,ISO (International Organization for Standardization),Standard,"ISO Update March 1, 2024 to April 1, 2024"
 15. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,International Recognition Procedure
 15. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Borderlines with medical devices and other products in Great Britain
@@ -943,7 +944,7 @@ Date,Agency,Category,Information
 15. April 2024,SWISSMEDIC,Form,Field Safety Corrective Action (FSCA) Report
 15. April 2024,"Therapeutic Goods Administration (TGA), Australia",Form,Clinical trial notification (CTN) form
 15. April 2024,USA Food & Drug Administration FDA,Record,eSubmitter Application History
-8. April 2024, CDSCO India,Notice,Strengthening of Private Medical Device Testing Laboratory
+8. April 2024,CDSCO India,Notice,Strengthening of Private Medical Device Testing Laboratory
 8. April 2024,Egyptian Drug Authority,Guidance,Third edition regulatory guide for the decision of the EDA  No. (450) of 2023
 8. April 2024,Egyptian Drug Authority,Guidance,Rational use of antifungals
 8. April 2024,European Medicines Agency,Procedure,Procedural Advice on Zero day MR procedure
@@ -974,115 +975,115 @@ Date,Agency,Category,Information
 8. April 2024,USA Food & Drug Administration FDA,Report,CDER’s Office of Communications (OCOMM) Annual Report for 2023
 8. April 2024,Medicines Control Authority of Zimbabwe (MCAZ),Invitation,new system of processing applications for registration - Circular 26 of 2023
 8. April 2024,World Health Organisation WHO,Guidance,Implementation guide to the routine health information system toolkit
-1. April 2024, Drug Regulatory Authority of Pakistan,Guidance,Good Clinical Practice (GCP) Inspections
-1. April 2024, Egyptian Drug Authority,Declaration,Registration of pharmaceutical form medical supplies (Dosage form)
-1. April 2024, European Commission,Guidance,Responsible use of generative Artificial Intelligence in research
-1. April 2024, European Commission,Request,Use of brain stimulators not having an intended medical purpose
-1. April 2024, European Commission,Overview,Devices subject to the clinical evaluation consultation procedure
-1. April 2024, European Commission,Guidance,Quantitative Evidence Synthesis: Direct and Indirect Comparisons
-1. April 2024, European Commission,Guidance,Overview of language requirements for manufacturers of medical devices
-1. April 2024, European Medicines Agency,Guidance,"Quality, non-clinical and clinical requirements for investigational advanced therapy medicinal products in clinical trials"
-1. April 2024, European Medicines Agency,Guidance,Pre-authorisation procedural advice for users of the centralised procedure
-1. April 2024, European Medicines Agency,Guidance,"Preparation, conduct and reporting of EU pharmacovigilance inspections"
-1. April 2024, European Medicines Agency,Fees,Regulatory information – adjusted fees for applications to EMA from 1 April 2024
+1. April 2024,Drug Regulatory Authority of Pakistan,Guidance,Good Clinical Practice (GCP) Inspections
+1. April 2024,Egyptian Drug Authority,Declaration,Registration of pharmaceutical form medical supplies (Dosage form)
+1. April 2024,European Commission,Guidance,Responsible use of generative Artificial Intelligence in research
+1. April 2024,European Commission,Request,Use of brain stimulators not having an intended medical purpose
+1. April 2024,European Commission,Overview,Devices subject to the clinical evaluation consultation procedure
+1. April 2024,European Commission,Guidance,Quantitative Evidence Synthesis: Direct and Indirect Comparisons
+1. April 2024,European Commission,Guidance,Overview of language requirements for manufacturers of medical devices
+1. April 2024,European Medicines Agency,Guidance,"Quality, non-clinical and clinical requirements for investigational advanced therapy medicinal products in clinical trials"
+1. April 2024,European Medicines Agency,Guidance,Pre-authorisation procedural advice for users of the centralised procedure
+1. April 2024,European Medicines Agency,Guidance,"Preparation, conduct and reporting of EU pharmacovigilance inspections"
+1. April 2024,European Medicines Agency,Fees,Regulatory information – adjusted fees for applications to EMA from 1 April 2024
 1. April 2024,International Medical Device Regulators Forum,Outcome Statement,25th Session of the IMDRF 11-15 March 2024
 1. April 2024,International Medical Device Regulators Forum,Jurisdictional Updates,25th Session of the IMDRF Regulatory Updates
 1. April 2024,International Medical Device Regulators Forum,Working Group Updates,25th Session of the IMDRF Working Groups
 1. April 2024,International Medical Device Regulators Forum,Industry Workshops,25th Session of the IMDRF Industry Workshop “Reliance”
-1. April 2024, Medical Device Authority Malaysia,Announcement,Faster Approval For Establishment License Application
-1. April 2024, Medical Device Authority Malaysia,Guidance,Establishment License Application
-1. April 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Regulation of devices in Northern Ireland
-1. April 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for manufacturer or wholesaler of medicines licences
-1. April 2024, Medicines and Healthcare products Regulatory Agency,Guidance,"Clinical trials for medicines: manage authorisation, report safety issues"
-1. April 2024, Medicines and Healthcare products Regulatory Agency,Guidance,RegulatoryConnect
-1. April 2024, Medicines and Healthcare products Regulatory Agency,Report,SaBTO annual report 2022 to 2023
+1. April 2024,Medical Device Authority Malaysia,Announcement,Faster Approval For Establishment License Application
+1. April 2024,Medical Device Authority Malaysia,Guidance,Establishment License Application
+1. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Regulation of devices in Northern Ireland
+1. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for manufacturer or wholesaler of medicines licences
+1. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,"Clinical trials for medicines: manage authorisation, report safety issues"
+1. April 2024,Medicines and Healthcare products Regulatory Agency,Guidance,RegulatoryConnect
+1. April 2024,Medicines and Healthcare products Regulatory Agency,Report,SaBTO annual report 2022 to 2023
 1. April 2024,"NMPA-National Medical Products Administration, Peoples Republic of China",Guidance,For the review of medical device usability engineering registration
 1. April 2024,"NMPA-National Medical Products Administration, Peoples Republic of China",Guidance,For the registration review of high-frequency surgical devices
 1. April 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Uniform recall procedure for therapeutic goods (URPTG)
 1. April 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Authorised Prescriber Scheme
 1. April 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Supporting documentation for inclusion of a medical device
-1. April 2024, USA Food & Drug Administration FDA,SOPP,Managing MDUFA User Fee Payments and Billing
-1. April 2024, USA Food & Drug Administration FDA,Annual Report,National Center For Toxicological Research
-1. April 2024, USA Food & Drug Administration FDA,Guidance,Handling & Retention of Bioavailability BA & Bioequivalence BE Testing Samples
-1. April 2024, USA Food & Drug Administration FDA,Guidance,Animal Studies for Dental Bone Grafting - Premarket Notification (510(k))
-1. April 2024, World Health Organisation WHO,Technical brief,Artificial intelligence in sexual and reproductive health and rights
-1. April 2024, World Health Organisation WHO,Publication,Benefits & risks of using  AI for pharmaceutical development & delivery
-25. March 2024, CDSCO India,Circular,PSUR of Medical devices / IVD through Medical Devices Portal
-25. March 2024, European Commission,Press Release,Political agreement on European Health Data Space
-25. March 2024, European Commission,Press Release,EU AI Act: first regulation on artificial intelligence
-25. March 2024, European Commission,Posters,Prevention of non-communicable diseases
-25. March 2024, European Commission,Report,Prevention of non-communicable diseases
-25. March 2024, European Commission,Guidance,Deliverables of MDCG Subgroups – March 2024
-25. March 2024, European Commission,Consultation,Benefit-risk assessment of phthalates in certain medical devices
-25. March 2024, European Medicines Agency,Guidance,Electronic submission of information on investigational products
-25. March 2024, European Medicines Agency,Meeting,Committee for Medicinal Products for Human Use (CHMP) March 2024
+1. April 2024,USA Food & Drug Administration FDA,SOPP,Managing MDUFA User Fee Payments and Billing
+1. April 2024,USA Food & Drug Administration FDA,Annual Report,National Center For Toxicological Research
+1. April 2024,USA Food & Drug Administration FDA,Guidance,Handling & Retention of Bioavailability BA & Bioequivalence BE Testing Samples
+1. April 2024,USA Food & Drug Administration FDA,Guidance,Animal Studies for Dental Bone Grafting - Premarket Notification (510(k))
+1. April 2024,World Health Organisation WHO,Technical brief,Artificial intelligence in sexual and reproductive health and rights
+1. April 2024,World Health Organisation WHO,Publication,Benefits & risks of using  AI for pharmaceutical development & delivery
+25. March 2024,CDSCO India,Circular,PSUR of Medical devices / IVD through Medical Devices Portal
+25. March 2024,European Commission,Press Release,Political agreement on European Health Data Space
+25. March 2024,European Commission,Press Release,EU AI Act: first regulation on artificial intelligence
+25. March 2024,European Commission,Posters,Prevention of non-communicable diseases
+25. March 2024,European Commission,Report,Prevention of non-communicable diseases
+25. March 2024,European Commission,Guidance,Deliverables of MDCG Subgroups – March 2024
+25. March 2024,European Commission,Consultation,Benefit-risk assessment of phthalates in certain medical devices
+25. March 2024,European Medicines Agency,Guidance,Electronic submission of information on investigational products
+25. March 2024,European Medicines Agency,Meeting,Committee for Medicinal Products for Human Use (CHMP) March 2024
 25. March 2024, International Electrotechnical Commission,Standard,IEC 80601-2-78:2019+AMD1:2024 medical robots for…
 25. March 2024, International Electrotechnical Commission,Standard,IEC 63412-1:2024 PRV Ultrasonics - Shear-wave elastography
 25. March 2024, International Electrotechnical Commission,Standard,IEC 80601-2-58:2024 lens removal and vitrectomy devices
 25. March 2024, International Electrotechnical Commission,Standard,IEC 61674:2024 Dosimeters X-ray diagnostic imaging
-25. March 2024, South African Health Products Regulatory Authority,News,South African eCTD 3.0 Launch
-25. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Medicines: reclassify your product
-25. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Advanced therapy medicinal products: regulation and licensing
-25. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Export drugs and medicines: special rules
-25. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
+25. March 2024,South African Health Products Regulatory Authority,News,South African eCTD 3.0 Launch
+25. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Medicines: reclassify your product
+25. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Advanced therapy medicinal products: regulation and licensing
+25. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Export drugs and medicines: special rules
+25. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
 25. March 2024," MEDSAFE, New Zealand",Consultation,Proposed updates to Pharmacovigilance Guidance
-25. March 2024, Italian Medicines Agency,Guidance,Ancillary medicinal substances incorporated in medical device
-25. March 2024, Swissmedic,Guidance,Application for license to grow cannabis for medical purposes
+25. March 2024,Italian Medicines Agency,Guidance,Ancillary medicinal substances incorporated in medical device
+25. March 2024,Swissmedic,Guidance,Application for license to grow cannabis for medical purposes
 25. March 2024," Therapeutic Goods Administration (TGA), Australia",Consultation,Companion diagnostics guidance update
-25. March 2024, USA Food & Drug Administration FDA,Guidance,Controlled Correspondence Related to Generic Drug Development
-25. March 2024, USA Food & Drug Administration FDA,Guidance,"Manufacture of Batches in Support of NADAs, ANADAs, & CNADAs"
-25. March 2024, USA Food & Drug Administration FDA,Guidance,Pharmacokinetics in Patients with Impaired Renal Function
-25. March 2024, USA Food & Drug Administration FDA,Guidance,Real-World Evidence: Non-Interventional Studies Drug & Biologics
-25. March 2024, USA Food & Drug Administration FDA,Update,Breakthrough Devices Program Metrics & Marketing Authorizations List
-25. March 2024, USA Food & Drug Administration FDA,Proposed Rule,Drug Products with Demonstrable Difficulties for Compounding
-25. March 2024, USA Food & Drug Administration FDA,Report,Division of Applied Regulatory Science Annual Report 2023
-25. March 2024, USA Food & Drug Administration FDA,Paper,Harnessing the Potential of Artificial Intelligence
-18. March 2024, ANVISA Brazil,Notice,Updates safety and performance requirements for medical devices
-18. March 2024, European Commission,Proposal,Better lifecycle management of medicine authorisation
-18. March 2024, European Commission,Guidance,MDCG 2024-3 - Clinical Investigation Plan for medical devices
-18. March 2024, European Commission,Survey,Notified Bodies Survey on certifications and applications (MDR/IVDR) Report:Member State Coordination Group on HTA (8 March 2024)
-18. March 2024, European Commission,Factsheet,Steering innovation to address unmet medical needs
-18. March 2024, European Commission,Factsheet,Access to medicines in all Member States
-18. March 2024, European Medicines Agency,Guidance,Pharmacovigilance Risk Assessment Committee 4-7 March 2024
-18. March 2024, European Medicines Agency,Guidance,EudraVigilance support guide
-18. March 2024, European Medicines Agency,Guidance,Procedural advice for orphan medicinal product
-18. March 2024, European Medicines Agency,Guidance,Innovation Task Force (ITF) briefing meetings
-18. March 2024, International Medical Device Regulators Forum,Guidance,Adverse Event Terminology
-18. March 2024, Medicines and Healthcare products Regulatory Agency,Report,Equity in Medical Devices:Independent Review
-18. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application changes
-18. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
-18. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,British Pharmacopoeia Environmental sustainability
-18. March 2024, East Africa Regulatory Affairs Association (EARAPA),Announcement,PPB Kenya becomes Affilate member of MDSAP Program.
-18. March 2024, Swissmedic,Form,Quality defect report
-18. March 2024, Swissmedic,Guidance,Guidance Industry eCTD
-18. March 2024, Swissmedic,Guidance,Members list of Veterinary Medicines Expert Committees (VMEC)
+25. March 2024,USA Food & Drug Administration FDA,Guidance,Controlled Correspondence Related to Generic Drug Development
+25. March 2024,USA Food & Drug Administration FDA,Guidance,"Manufacture of Batches in Support of NADAs, ANADAs, & CNADAs"
+25. March 2024,USA Food & Drug Administration FDA,Guidance,Pharmacokinetics in Patients with Impaired Renal Function
+25. March 2024,USA Food & Drug Administration FDA,Guidance,Real-World Evidence: Non-Interventional Studies Drug & Biologics
+25. March 2024,USA Food & Drug Administration FDA,Update,Breakthrough Devices Program Metrics & Marketing Authorizations List
+25. March 2024,USA Food & Drug Administration FDA,Proposed Rule,Drug Products with Demonstrable Difficulties for Compounding
+25. March 2024,USA Food & Drug Administration FDA,Report,Division of Applied Regulatory Science Annual Report 2023
+25. March 2024,USA Food & Drug Administration FDA,Paper,Harnessing the Potential of Artificial Intelligence
+18. March 2024,ANVISA Brazil,Notice,Updates safety and performance requirements for medical devices
+18. March 2024,European Commission,Proposal,Better lifecycle management of medicine authorisation
+18. March 2024,European Commission,Guidance,MDCG 2024-3 - Clinical Investigation Plan for medical devices
+18. March 2024,European Commission,Survey,Notified Bodies Survey on certifications and applications (MDR/IVDR) Report:Member State Coordination Group on HTA (8 March 2024)
+18. March 2024,European Commission,Factsheet,Steering innovation to address unmet medical needs
+18. March 2024,European Commission,Factsheet,Access to medicines in all Member States
+18. March 2024,European Medicines Agency,Guidance,Pharmacovigilance Risk Assessment Committee 4-7 March 2024
+18. March 2024,European Medicines Agency,Guidance,EudraVigilance support guide
+18. March 2024,European Medicines Agency,Guidance,Procedural advice for orphan medicinal product
+18. March 2024,European Medicines Agency,Guidance,Innovation Task Force (ITF) briefing meetings
+18. March 2024,International Medical Device Regulators Forum,Guidance,Adverse Event Terminology
+18. March 2024,Medicines and Healthcare products Regulatory Agency,Report,Equity in Medical Devices:Independent Review
+18. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application changes
+18. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
+18. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,British Pharmacopoeia Environmental sustainability
+18. March 2024,East Africa Regulatory Affairs Association (EARAPA),Announcement,PPB Kenya becomes Affilate member of MDSAP Program.
+18. March 2024,Swissmedic,Form,Quality defect report
+18. March 2024,Swissmedic,Guidance,Guidance Industry eCTD
+18. March 2024,Swissmedic,Guidance,Members list of Veterinary Medicines Expert Committees (VMEC)
 18. March 2024," Therapeutic Goods Administration (TGA), Australia",Notice,Referring to cosmetic injectables in advertising
 18. March 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Clinical trial notification (CTN) form - user guide
-18. March 2024, USA Food & Drug Administration FDA,Guidance,"Early Alzheimer’s Disease: Developing Drugs for Treatment,"
-18. March 2024, USA Food & Drug Administration FDA,Guidance,Select Updates for the Premarket Cybersecurity Guidance
-18. March 2024, USA Food & Drug Administration FDA,Guidance,"Reportable Labeling Changes for NDA, ANDA Nonprescription Drugs"
-18. March 2024, USA Food & Drug Administration FDA,Guidance,Evaluation of Thermal Effects of Medical Devices
-18. March 2024, USA Food & Drug Administration FDA,Guidance,E2D(R1) Post-Approval Safety Data
-18. March 2024, USA Food & Drug Administration FDA,Guidance,The Q-Submission Program
-18. March 2024, USA Food & Drug Administration FDA,Proposed Rule,Labeling Requirements for New Animal Drugs
-18. March 2024, World Health Organisation WHO,Mobile App,Biosafety risk assessment
-11. March 2024, Egyptian Drug Authority,Declaration,Extension to complete the scientific files of veterinary preparations
-11. March 2024, European Commission,Consultation,EU Health Technology Assessment Regulation
-11. March 2024, European Commission,Guidance,Advice on the indirect antiglobulin tests on request from the MDCG
-11. March 2024, European Commission,Update,44 Notified Bodies EU MDR 2017/746 medical devices
-11. March 2024, European Commission,Update,12 Notified Bodies EU IVDR 2017/746 in vitro diagnostics
-11. March 2024, European Commission,Regulation,Harmonised standards for terminal sterilisation and packaging
-11. March 2024, European Medicines Agency,Guidance,Excipients in the labelling and package leaflet of medicinal products
+18. March 2024,USA Food & Drug Administration FDA,Guidance,"Early Alzheimer’s Disease: Developing Drugs for Treatment,"
+18. March 2024,USA Food & Drug Administration FDA,Guidance,Select Updates for the Premarket Cybersecurity Guidance
+18. March 2024,USA Food & Drug Administration FDA,Guidance,"Reportable Labeling Changes for NDA, ANDA Nonprescription Drugs"
+18. March 2024,USA Food & Drug Administration FDA,Guidance,Evaluation of Thermal Effects of Medical Devices
+18. March 2024,USA Food & Drug Administration FDA,Guidance,E2D(R1) Post-Approval Safety Data
+18. March 2024,USA Food & Drug Administration FDA,Guidance,The Q-Submission Program
+18. March 2024,USA Food & Drug Administration FDA,Proposed Rule,Labeling Requirements for New Animal Drugs
+18. March 2024,World Health Organisation WHO,Mobile App,Biosafety risk assessment
+11. March 2024,Egyptian Drug Authority,Declaration,Extension to complete the scientific files of veterinary preparations
+11. March 2024,European Commission,Consultation,EU Health Technology Assessment Regulation
+11. March 2024,European Commission,Guidance,Advice on the indirect antiglobulin tests on request from the MDCG
+11. March 2024,European Commission,Update,44 Notified Bodies EU MDR 2017/746 medical devices
+11. March 2024,European Commission,Update,12 Notified Bodies EU IVDR 2017/746 in vitro diagnostics
+11. March 2024,European Commission,Regulation,Harmonised standards for terminal sterilisation and packaging
+11. March 2024,European Medicines Agency,Guidance,Excipients in the labelling and package leaflet of medicinal products
 11. March 2024," Health Products Regulatory Authority (HPRA) , Ireland",Newsletter,HPRA Medical Devices 29 February 2024
-11. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,"Medicines: packaging, labelling and patient information leaflets"
-11. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application changes
+11. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,"Medicines: packaging, labelling and patient information leaflets"
+11. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application changes
 11. March 2024," Health Sciences Authority (HSA), Singapore",Guidance,13 Guidance documents for medical devices - March 2024
-11. March 2024, ISO (International Organization for Standardization),Standard,"ISO Update February 1, 2024 to March 1, 2024"
-11. March 2024, Swissmedic,Report,Authorisations of complementary & herbal medicinal products in 2023
-11. March 2024, Swissmedic,Journal,Swissmedic Journal 02/2024
-11. March 2024, Swissmedic,Consultation,ICH Guideline E2D(R1) launched in Switzerland
-11. March 2024, Swissmedic,Guidance,Guidance document Time limits for authorization applications
-11. March 2024, Swissmedic,Guidance,Members list of Human Medicines Expert Committees (HMEC)
+11. March 2024,ISO (International Organization for Standardization),Standard,"ISO Update February 1, 2024 to March 1, 2024"
+11. March 2024,Swissmedic,Report,Authorisations of complementary & herbal medicinal products in 2023
+11. March 2024,Swissmedic,Journal,Swissmedic Journal 02/2024
+11. March 2024,Swissmedic,Consultation,ICH Guideline E2D(R1) launched in Switzerland
+11. March 2024,Swissmedic,Guidance,Guidance document Time limits for authorization applications
+11. March 2024,Swissmedic,Guidance,Members list of Human Medicines Expert Committees (HMEC)
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Notice,Health Canada agreement on GMP inspections initiative
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Notice,"Update to manufacturing principles for medicines, API & Sunscreens"
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Publication,PIC/S Guide to GMP for medicinal products – version 16
@@ -1090,48 +1091,49 @@ Date,Agency,Category,Information
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Changes to the Permissible Ingredients Determination
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Update,Update to listed medicine ingredients in March 2024
 11. March 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Advertising health services
-11. March 2024, USA Food & Drug Administration FDA,Guidance,"Understanding in Informed Consent Guidance for Sponsors,"
-11. March 2024, USA Food & Drug Administration FDA,Guidance,Q14 Analytical Procedure Development
-11. March 2024, USA Food & Drug Administration FDA,Guidance,Q2(R2) Validation of Analytical Procedures
-11. March 2024, USA Food & Drug Administration FDA,Guidance,Augmented Reality and Virtual Reality Medical Devices
-11. March 2024, World Health Organisation WHO,Policy Brief,Medication without harm
-4. March 2024, ANVISA Brazil,Technical Note,The use of smartwatches for blood glucose measurement
-4. March 2024, CDSCO India,Guidance,Applications of PSURs MA of New Drugs SNDs FDCs Biologicals
-4. March 2024, Egyptian Drug Authority,Guidance,Management of variables for veterinary preparations
-4. March 2024, Egyptian Drug Authority,Draft Guidance,Naming of Human Pharmaceutical Products
-4. March 2024, Egyptian Drug Authority,Publication,Impact Analysis for Risk Based Lot Release for Biologics
-4. March 2024, Egyptian Drug Authority,Update,The MeDevice database
-4. March 2024, European Commission,Factsheet,Factsheet on EU actions on rare diseases
-4. March 2024, European Medicines Agency,Infographic,Orphan Medicines in the EU
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Access Consortium
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application process
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Report,Medicines and Medical Devices Act report 2024
-4. March 2024, Medicines and Healthcare products Regulatory Agency,Report,England Rare Diseases Action Plan 2024
-4. March 2024, National Institute of Standards and Technology (NIST),Guidance,Version 2.0 of Landmark Cybersecurity Framework
+11. March 2024,USA Food & Drug Administration FDA,Guidance,"Understanding in Informed Consent Guidance for Sponsors,"
+11. March 2024,USA Food & Drug Administration FDA,Guidance,Q14 Analytical Procedure Development
+11. March 2024,USA Food & Drug Administration FDA,Guidance,Q2(R2) Validation of Analytical Procedures
+11. March 2024,USA Food & Drug Administration FDA,Guidance,Augmented Reality and Virtual Reality Medical Devices
+11. March 2024,World Health Organisation WHO,Policy Brief,Medication without harm
+4. March 2024,ANVISA Brazil,Technical Note,The use of smartwatches for blood glucose measurement
+4. March 2024,CDSCO India,Guidance,Applications of PSURs MA of New Drugs SNDs FDCs Biologicals
+4. March 2024,Egyptian Drug Authority,Guidance,Management of variables for veterinary preparations
+4. March 2024,Egyptian Drug Authority,Draft Guidance,Naming of Human Pharmaceutical Products
+4. March 2024,Egyptian Drug Authority,Publication,Impact Analysis for Risk Based Lot Release for Biologics
+4. March 2024,Egyptian Drug Authority,Update,The MeDevice database
+4. March 2024,European Commission,Factsheet,Factsheet on EU actions on rare diseases
+4. March 2024,European Medicines Agency,Infographic,Orphan Medicines in the EU
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Access Consortium
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Established Medicines marketing authorisation application process
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Report,Medicines and Medical Devices Act report 2024
+4. March 2024,Medicines and Healthcare products Regulatory Agency,Report,England Rare Diseases Action Plan 2024
+4. March 2024,National Institute of Standards and Technology (NIST),Guidance,Version 2.0 of Landmark Cybersecurity Framework
 4. March 2024," Health Sciences Authority (HSA), Singapore",Regulation,Proposed Amendments to Regulation 23
-4. March 2024," Health Sciences Authority (HSA), Singapore &Korea MFDS and Singapore HAS, Republic of Korea",News,Mutual Recognition Agreement on GMP for Medicinal Products
-4. March 2024, Swissmedic,Form,GMP/GCP/GVP/Medical Devices Inspections in Switzerland
-4. March 2024, Team NB,Position Paper,Classification of SARS CoV 2
+4. March 2024," Health Sciences Authority (HSA), Singapore &
+Korea MFDS and Singapore HAS, Republic of Korea",News,Mutual Recognition Agreement on GMP for Medicinal Products
+4. March 2024,Swissmedic,Form,GMP/GCP/GVP/Medical Devices Inspections in Switzerland
+4. March 2024,Team NB,Position Paper,Classification of SARS CoV 2
 4. March 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Reformatting Product Information: Frequently asked questions
-4. March 2024, USA Food & Drug Administration FDA,Guidance,Reporting Amount of Listed Drugs and Biologics Conformance
-4. March 2024, USA Food & Drug Administration FDA,Guidance,Clinical Pharmacology Considerations for Antibody-Drug Conjugates
-4. March 2024, USA Food & Drug Administration FDA,Rule,"Animal Drugs; Approval,  Withdrawal, Change of Sponsor"
-4. March 2024, USA Food & Drug Administration FDA,Report,LEADER 3D Public Report of External Engagement Analysis
-4. March 2024, USA Food & Drug Administration FDA,Update,Digital Diagnostics: Over-the-Counter (OTC) and Point-of-Care (POC)
-4. March 2024, USA Food & Drug Administration FDA,Update,Harmonization & Interoperability Enhancement for Lab.Data (SHIELD)
-26. February 2024, ACTIVE PHARMACEUTICAL INGREDIENTS COMMITTEE (APIC),Guidance,Quality Agreement Guideline & Template
-26. February 2024, CDSCO India,Guidance,Neutral Code for manufacturing of Medical Devices for export
-26. February 2024, Egyptian Drug Authority,Guidance,Post Market Quality Testing of Biotherapeutic Product in Egypt
-26. February 2024, European Commission,Press Release,Medical devices:  Council endorses new measures
-26. February 2024, European Commission,News,Possible second call for EU reference laboratories for high-risk IVD
-26. February 2024, European Medicines Agency,Meeting,(CHMP) Medicinal Products for Human Use 19-22 February 2024
-26. February 2024, International Council for Harmonisation,Training Material,Bioanalytical Method Validation and Study Sample Analysis”
-26. February 2024, International Council for Harmonisation,Guidance,ICH Q3C(R9) Guideline reaches Step 4 of the ICH Process
-26. February 2024, International Council for Harmonisation,Guidance,ICH E2D(R1) draft Guideline reaches Step 2 of the ICH process
-26. February 2024, Medical Device Authority Malaysia,Guidance,Placement of HIV Self-test (HIVST) Kit un Malaysia Market
-26. February 2024, Medicines and Healthcare products Regulatory Agency,ATMP Guidance,Characterisation-Capsid Particle Population in rAAV Product
+4. March 2024,USA Food & Drug Administration FDA,Guidance,Reporting Amount of Listed Drugs and Biologics Conformance
+4. March 2024,USA Food & Drug Administration FDA,Guidance,Clinical Pharmacology Considerations for Antibody-Drug Conjugates
+4. March 2024,USA Food & Drug Administration FDA,Rule,"Animal Drugs; Approval,  Withdrawal, Change of Sponsor"
+4. March 2024,USA Food & Drug Administration FDA,Report,LEADER 3D Public Report of External Engagement Analysis
+4. March 2024,USA Food & Drug Administration FDA,Update,Digital Diagnostics: Over-the-Counter (OTC) and Point-of-Care (POC)
+4. March 2024,USA Food & Drug Administration FDA,Update,Harmonization & Interoperability Enhancement for Lab.Data (SHIELD)
+26. February 2024,ACTIVE PHARMACEUTICAL INGREDIENTS COMMITTEE (APIC),Guidance,Quality Agreement Guideline & Template
+26. February 2024,CDSCO India,Guidance,Neutral Code for manufacturing of Medical Devices for export
+26. February 2024,Egyptian Drug Authority,Guidance,Post Market Quality Testing of Biotherapeutic Product in Egypt
+26. February 2024,European Commission,Press Release,Medical devices:  Council endorses new measures
+26. February 2024,European Commission,News,Possible second call for EU reference laboratories for high-risk IVD
+26. February 2024,European Medicines Agency,Meeting,(CHMP) Medicinal Products for Human Use 19-22 February 2024
+26. February 2024,International Council for Harmonisation,Training Material,Bioanalytical Method Validation and Study Sample Analysis”
+26. February 2024,International Council for Harmonisation,Guidance,ICH Q3C(R9) Guideline reaches Step 4 of the ICH Process
+26. February 2024,International Council for Harmonisation,Guidance,ICH E2D(R1) draft Guideline reaches Step 2 of the ICH process
+26. February 2024,Medical Device Authority Malaysia,Guidance,Placement of HIV Self-test (HIVST) Kit un Malaysia Market
+26. February 2024,Medicines and Healthcare products Regulatory Agency,ATMP Guidance,Characterisation-Capsid Particle Population in rAAV Product
 26. February 2024," MEDSAFE, New Zealand",Guidance,Submit an application for pseudoephedrine provisional consent
 26. February 2024,Swissmedic,Information Sheet,Medical Device Requirements for CAPA plans
 26. February 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,System or procedure packs
@@ -1140,181 +1142,183 @@ Date,Agency,Category,Information
 26. February 2024," Therapeutic Goods Administration (TGA), Australia",Pilot Program,Pilot GMP Single Inspection Program
 26. February 2024," Therapeutic Goods Administration (TGA), Australia",Checklist,Medical Devices Essential Principles Checklist
 26. February 2024," TEAM AB, UK",Announcement,The formation of Team-AB
-26. February 2024, USA Food & Drug Administration FDA,Guidance,Select Updates for User Fee Small Business Qualification
-26. February 2024, USA Food & Drug Administration FDA,Guidance,Assessing COVID-19 in Outpatients in Clinical Trials of Drugs
-26. February 2024, USA Food & Drug Administration FDA,Letter to Industry,Fraudulent Unreliable Data in Premarket Submissions
-26. February 2024, USA Food & Drug Administration FDA,News,New Website - Clinical Pharmacology Pediatrics Program
-26. February 2024, USA Food & Drug Administration FDA,Report,Office of Generic Drugs 2023 Annual Report
-26. February 2024, USA Food & Drug Administration FDA,Update,Diagnostic Data Program
-19. February 2024, African Union Development Agency-NEPAD (AUDA-NEPAD)),News,2023 Edition on African Medicines Regulatory Harmonization (AMRH)
-19. February 2024, European Commission,EUDAMED,All User guides and templates v2.14
-19. February 2024, European Medicines Agency,Catalogues,HMA-EMA real-world data sources and studies
-19. February 2024, CDSCO India,Guidance,sampling of drugs cosmetics and medical devices by Drugs Inspectors
-19. February 2024, International Medical Device Regulators Forum,Guiding Principles,To Support Medical Device Health Equity
-19. February 2024, International Medical Device Regulators Forum,Procedure,IMDRF Terms of Reference
-19. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,The Innovative Devices Access Pathway (IDAP)
-19. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Implementation of medical devices future regime
-19. February 2024, Medicines and Healthcare products Regulatory Agency,Request,For regulators to publish an update on their strategic approach to AI
-19. February 2024, Swissmedic,Technical Interpretation,Shipment under Quarantine
-19. February 2024, USA Food & Drug Administration FDA,Guidance,Use of Data Monitoring Committees in Clinical Trials
-19. February 2024, USA Food & Drug Administration FDA,Guidance,Advanced Manufacturing Technologies Designation Program
-19. February 2024, USA Food & Drug Administration FDA,Guidance,Charging for Investigational Drugs Under an IND: Q&A
-19. February 2024, USA Food & Drug Administration FDA,Guidance,Product-Specific for Generic Drug Development
-19. February 2024, USA Food & Drug Administration FDA,SOPP 8419,Section 505(o)(4) Required Safety Labeling Changes
-19. February 2024, USA Food & Drug Administration FDA,Report,FDA Information Technology Operating Plan
-19. February 2024, USA Food & Drug Administration FDA,Report,FY23 Drug Safety Priorities Report
-19. February 2024, World Health Organisation WHO,List,Medically Important Antimicrobials List for Human Medicine
-12. February 2024, European Commission,Guidance,MDCG 2024-2 Procedures for the updates of the European Medical Device Nomenclature
-12. February 2024, European Commission,Survey,Notified Bodies on certifications and applications (MDR/IVDR) (Survey results with data status 31 October 2023)
-12. February 2024, European Commission,Video,From Theory to Practice: Implementing the EU Health Technology Assessment Regulation
-12. February 2024, European Medicines Agency,Pilot Program,FDA & EMA Parallel Scientific Program for Complex Generics
-12. February 2024, European Medicines Agency,Pilot Program,Pharmacovigilance Risk Assessment Committee 5-8 February
-12. February 2024, Egyptian Drug Authority,Guidance,Conditions that must be met while submitting files to the Evaluation and Accreditation Department
-12. February 2024, Health Canada,Draft guidance,How to interpret ‘significant change’ of a medical device
-12. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Register a homeopathic medicine
-12. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Regulating medical devices in the UK
-12. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Access New Active Substance and Biosimilar Work Sharing Guidance: Implementing the UK’s AI regulatory principles
-12. February 2024, Medical Device Authority Malaysia,Subscription,MDA Regulatory Information Subscription (MDA-RIS)
-12. February 2024, MedTech Europe,Joint Statement,Supporting Use of eIFU in the medical devices sector
-12. February 2024, Swissmedic,Journal,Swissmedic Journal
-12. February 2024, Swissmedic,Guidance,Industry Electronic exchange of ICSRs through PV Gateway
-12. February 2024, Swissmedic,News,swissdamed – Swiss Database on Medical Devices
-12. February 2024, USA Food & Drug Administration FDA,Guidance,Conducting Remote Regulatory Assessments Q&A
-12. February 2024, USA Food & Drug Administration FDA,Guidance,Reporting Amount of Listed Drugs and Biological Products
-12. February 2024, USA Food & Drug Administration FDA,Final Rule,Biologics License Applications and Master Files
-12. February 2024, USA Food & Drug Administration FDA,Guidance,Notifying FDA of a Discontinuance or Interruption in Manufacturing of Finished Products or API Under Section 506C of the FD&C Act
-12. February 2024, USA Food & Drug Administration FDA,Report,Office of Digital Transformation Annual Report
-12. February 2024, USA Food & Drug Administration FDA,Report,Office of Clinical Pharmacology Annual Report
-12. February 2024, USA Food & Drug Administration FDA,Report,SOPP 8401.2: Administrative Processing of BLA and NDA Supplements
-5. February 2024, European Commission,MDCG Template,Device Specific Vigilance Guidance (DSVG)
-5. February 2024, European Commission,MDCG Template,DSVG 01 Devices for Cardiac Ablation
-5. February 2024, European Commission,MDCG Template,DSVG 02 Coronary Stents and associated delivery systems
-5. February 2024, European Commission,MDCG Template,DSVG 03 Cardiac Implantable Electronic Devices (CIEDs)
-5. February 2024, European Commission,MDCG Template,DSVG 04 Breast Implants
-5. February 2024, European Commission,EUDAMED,Playground 3.7.0 has been deployed.
-5. February 2024, European Medicines Agency,News,CTIS newsflash - 26 January 2024 (europa.eu)
-5. February 2024, European Medicines Agency,News,One year left to transition to the new Clinical Trials Information System
-5. February 2024, European Medicines Agency,Guidance,ICH Q14 Analytical procedure development - Scientific guideline
-5. February 2024, European Medicines Agency,Guidance,Production API and Registration Process
-5. February 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies - GOV.UK (www.gov.uk)
-5. February 2024, Medical Device Authority Malaysia,Guidance,GENERAL MEDICAL DEVICE – GROUPING
-5. February 2024, Medical Device Authority Malaysia,Guidance,IMPORTATION OF MEDICAL DEVICE FOR PERSONAL USE
-5. February 2024, Medical Device Authority Malaysia,Guidance,POST MARKET INFORMATION EXCHANGE ASEAN STATES
+26. February 2024,USA Food & Drug Administration FDA,Guidance,Select Updates for User Fee Small Business Qualification
+26. February 2024,USA Food & Drug Administration FDA,Guidance,Assessing COVID-19 in Outpatients in Clinical Trials of Drugs
+26. February 2024,USA Food & Drug Administration FDA,Letter to Industry,Fraudulent Unreliable Data in Premarket Submissions
+26. February 2024,USA Food & Drug Administration FDA,News,New Website - Clinical Pharmacology Pediatrics Program
+26. February 2024,USA Food & Drug Administration FDA,Report,Office of Generic Drugs 2023 Annual Report
+26. February 2024,USA Food & Drug Administration FDA,Update,Diagnostic Data Program
+19. February 2024,African Union Development Agency-NEPAD (AUDA-NEPAD)),News,2023 Edition on African Medicines Regulatory Harmonization (AMRH)
+19. February 2024,European Commission,EUDAMED,All User guides and templates v2.14
+19. February 2024,European Medicines Agency,Catalogues,HMA-EMA real-world data sources and studies
+19. February 2024,CDSCO India,Guidance,sampling of drugs cosmetics and medical devices by Drugs Inspectors
+19. February 2024,International Medical Device Regulators Forum,Guiding Principles,To Support Medical Device Health Equity
+19. February 2024,International Medical Device Regulators Forum,Procedure,IMDRF Terms of Reference
+19. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,The Innovative Devices Access Pathway (IDAP)
+19. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Implementation of medical devices future regime
+19. February 2024,Medicines and Healthcare products Regulatory Agency,Request,For regulators to publish an update on their strategic approach to AI
+19. February 2024,Swissmedic,Technical Interpretation,Shipment under Quarantine
+19. February 2024,USA Food & Drug Administration FDA,Guidance,Use of Data Monitoring Committees in Clinical Trials
+19. February 2024,USA Food & Drug Administration FDA,Guidance,Advanced Manufacturing Technologies Designation Program
+19. February 2024,USA Food & Drug Administration FDA,Guidance,Charging for Investigational Drugs Under an IND: Q&A
+19. February 2024,USA Food & Drug Administration FDA,Guidance,Product-Specific for Generic Drug Development
+19. February 2024,USA Food & Drug Administration FDA,SOPP 8419,Section 505(o)(4) Required Safety Labeling Changes
+19. February 2024,USA Food & Drug Administration FDA,Report,FDA Information Technology Operating Plan
+19. February 2024,USA Food & Drug Administration FDA,Report,FY23 Drug Safety Priorities Report
+19. February 2024,World Health Organisation WHO,List,Medically Important Antimicrobials List for Human Medicine
+12. February 2024,European Commission,Guidance,MDCG 2024-2 Procedures for the updates of the European Medical Device Nomenclature
+12. February 2024,European Commission,Survey,Notified Bodies on certifications and applications (MDR/IVDR) 
+(Survey results with data status 31 October 2023)
+12. February 2024,European Commission,Video,From Theory to Practice: Implementing the EU Health Technology Assessment Regulation
+12. February 2024,European Medicines Agency,Pilot Program,FDA & EMA Parallel Scientific Program for Complex Generics
+12. February 2024,European Medicines Agency,Pilot Program,Pharmacovigilance Risk Assessment Committee 5-8 February
+12. February 2024,Egyptian Drug Authority,Guidance,Conditions that must be met while submitting files to the Evaluation and Accreditation Department
+12. February 2024,Health Canada,Draft guidance,How to interpret ‘significant change’ of a medical device
+12. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Register a homeopathic medicine
+12. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Regulating medical devices in the UK
+12. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Access New Active Substance and Biosimilar Work Sharing Guidance: Implementing the UK’s AI regulatory principles
+12. February 2024,Medical Device Authority Malaysia,Subscription,MDA Regulatory Information Subscription (MDA-RIS)
+12. February 2024,MedTech Europe,Joint Statement,Supporting Use of eIFU in the medical devices sector
+12. February 2024,Swissmedic,Journal,Swissmedic Journal
+12. February 2024,Swissmedic,Guidance,Industry Electronic exchange of ICSRs through PV Gateway
+12. February 2024,Swissmedic,News,swissdamed – Swiss Database on Medical Devices
+12. February 2024,USA Food & Drug Administration FDA,Guidance,Conducting Remote Regulatory Assessments Q&A
+12. February 2024,USA Food & Drug Administration FDA,Guidance,Reporting Amount of Listed Drugs and Biological Products
+12. February 2024,USA Food & Drug Administration FDA,Final Rule,Biologics License Applications and Master Files
+12. February 2024,USA Food & Drug Administration FDA,Guidance,Notifying FDA of a Discontinuance or Interruption in Manufacturing of Finished Products or API Under Section 506C of the FD&C Act
+12. February 2024,USA Food & Drug Administration FDA,Report,Office of Digital Transformation Annual Report
+12. February 2024,USA Food & Drug Administration FDA,Report,Office of Clinical Pharmacology Annual Report
+12. February 2024,USA Food & Drug Administration FDA,Report,SOPP 8401.2: Administrative Processing of BLA and NDA Supplements
+5. February 2024,European Commission,MDCG Template,Device Specific Vigilance Guidance (DSVG)
+5. February 2024,European Commission,MDCG Template,DSVG 01 Devices for Cardiac Ablation
+5. February 2024,European Commission,MDCG Template,DSVG 02 Coronary Stents and associated delivery systems
+5. February 2024,European Commission,MDCG Template,DSVG 03 Cardiac Implantable Electronic Devices (CIEDs)
+5. February 2024,European Commission,MDCG Template,DSVG 04 Breast Implants
+5. February 2024,European Commission,EUDAMED,Playground 3.7.0 has been deployed.
+5. February 2024,European Medicines Agency,News,CTIS newsflash - 26 January 2024 (europa.eu)
+5. February 2024,European Medicines Agency,News,One year left to transition to the new Clinical Trials Information System
+5. February 2024,European Medicines Agency,Guidance,ICH Q14 Analytical procedure development - Scientific guideline
+5. February 2024,European Medicines Agency,Guidance,Production API and Registration Process
+5. February 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies - GOV.UK (www.gov.uk)
+5. February 2024,Medical Device Authority Malaysia,Guidance,GENERAL MEDICAL DEVICE – GROUPING
+5. February 2024,Medical Device Authority Malaysia,Guidance,IMPORTATION OF MEDICAL DEVICE FOR PERSONAL USE
+5. February 2024,Medical Device Authority Malaysia,Guidance,POST MARKET INFORMATION EXCHANGE ASEAN STATES
 5. February 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Advertising personalised medical devices
 5. February 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,eCTD AU module 1 and regional information
 5. February 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Special Access Scheme (SAS) online system guidance
 5. February 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Authorised Prescriber Scheme online system guidance
 5. February 2024," Health Sciences Authority (HSA), Singapore",Updates,reclassified medicines
-5. February 2024, International Medical Device Regulators Forum,Consultation,SaMD: Considerations for Device and Risk Characterization
-5. February 2024, Swissmedic,Guidance,Product information for human medicinal products
-5. February 2024, Swissmedic,Guidance,Variations and extensions HAM
-5. February 2024, USA Food & Drug Administration FDA,Final Rule,Quality Management System Regulation
-5. February 2024, USA Food & Drug Administration FDA,Guidance,Collection of Race and Ethnicity Data in Clinical Trials
-5. February 2024, USA Food & Drug Administration FDA,Guidance,Human Gene Therapy Products Incorporating Genome Editing
-5. February 2024, USA Food & Drug Administration FDA,Guidance,Development of Chimeric Antigen Receptor (CAR) T Cell Products
-5. February 2024, USA Food & Drug Administration FDA,Guidance,Postmarketing Safety Surveillance of Drug and Biological Products
-5. February 2024, USA Food & Drug Administration FDA,News,Reclassification Process for Most High Risk IVDs
-5. February 2024, World Health Organisation WHO,Report,Imagining futures of 3D bioprinting
-29. January 2024, European Commission,News,Proposal to extend transition periods for certain IVDs
-29. January 2024, European Medicines Agency,Guidance,Major update of the SME user guide
-29. January 2024, European Medicines Agency,Guidance,The clinical evaluation of anticancer medicinal products
-29. January 2024, European Medicines Agency,Report,Veterinary medicines: Highlights of 2023
-29. January 2024, European Medicines Agency,Meeting highlights,Committee for Medicinal Products for Human Use (CHMP)
+5. February 2024,International Medical Device Regulators Forum,Consultation,SaMD: Considerations for Device and Risk Characterization
+5. February 2024,Swissmedic,Guidance,Product information for human medicinal products
+5. February 2024,Swissmedic,Guidance,Variations and extensions HAM
+5. February 2024,USA Food & Drug Administration FDA,Final Rule,Quality Management System Regulation
+5. February 2024,USA Food & Drug Administration FDA,Guidance,Collection of Race and Ethnicity Data in Clinical Trials
+5. February 2024,USA Food & Drug Administration FDA,Guidance,Human Gene Therapy Products Incorporating Genome Editing
+5. February 2024,USA Food & Drug Administration FDA,Guidance,Development of Chimeric Antigen Receptor (CAR) T Cell Products
+5. February 2024,USA Food & Drug Administration FDA,Guidance,Postmarketing Safety Surveillance of Drug and Biological Products
+5. February 2024,USA Food & Drug Administration FDA,News,Reclassification Process for Most High Risk IVDs
+5. February 2024,World Health Organisation WHO,Report,Imagining futures of 3D bioprinting
+29. January 2024,European Commission,News,Proposal to extend transition periods for certain IVDs
+29. January 2024,European Medicines Agency,Guidance,Major update of the SME user guide
+29. January 2024,European Medicines Agency,Guidance,The clinical evaluation of anticancer medicinal products
+29. January 2024,European Medicines Agency,Report,Veterinary medicines: Highlights of 2023
+29. January 2024,European Medicines Agency,Meeting highlights,Committee for Medicinal Products for Human Use (CHMP)
 29. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Annual Reports
-29. January 2024, International Society for Pharmaceutical Engineering (ISPE),Guidance,Recombinant AAV Comparability & Lifecycle Management
-29. January 2024, International Society for Pharmaceutical Engineering (ISPE),Guidance,Allogeneic Cell Therapy
-29. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
-29. January 2024, Global Fund,Guidance,Q&A Quality Assurance Policy for Pharmaceutical Products and  Medical Devices (including IVDand Core Personal Protective Equipment
-29. January 2024, International Accreditation Forum (IAF),Guidance,(IAF MDN) Including Medical Device Risk Classifications
-29. January 2024, Organisation for Economic Co-operation and Development,Publication,Collective action for responsible AI in health
-29. January 2024, USA Food & Drug Administration FDA,SOPP 8101.1,Regulatory Meetings for Drugs and Biological Products
-29. January 2024, USA Food & Drug Administration FDA,Guidance,Characterization of Metallic Coatings and/or Calcium Phosphate Coatings on Orthopedic Devices
-29. January 2024, USA Food & Drug Administration FDA,Guidance,Conducting Remote Regulatory Assessments Q&A
-29. January 2024, USA Food & Drug Administration FDA,Guidance,Revising ANDA Labeling Following Revision of the RLD Labeling Guidance for Industry: Guidance for Industry
-29. January 2024, USA Food & Drug Administration FDA,Guidance,ANDA Submissions – Amendments and Requests for Final Approval to Tentatively Approved ANDAs: Guidance for Industry
-29. January 2024, USA Food & Drug Administration FDA,Guidance,CVM GFI #286 (VICH GL60) - Good Manufacturing Practice for Active Pharmaceutical Ingredients Used in Veterinary Medicinal Products
-29. January 2024, USA Food & Drug Administration FDA,Best Practices,Postmarketing Safety Surveillance of Human Drug and Biological Products; Final Document; Availability
-29. January 2024, USA Food & Drug Administration FDA,Update,ASCA-Accredited Testing Laboratories
-29. January 2024, USA Food & Drug Administration FDA,News,FDA's ISTAND Pilot Program accepts submission of first artificial intelligence-based and digital health technology for neuroscience
-29. January 2024, USA Food & Drug Administration FDA,Website,For Healthcare Professionals | FDA’s Examples of Drugs that Interact with CYP Enzymes and Transporter Systems
-22. January 2024, European Commission,Plan,Joint implementation and preparedness plan for Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)
-22. January 2024, European Commission,Data Act,Harmonised rules on fair access to and use of data Overview: Language requirements for manufacturers of medical devices
-22. January 2024, European Medicines Agency,Report,Human medicines: highlights of 2023
-22. January 2024, European Medicines Agency,Report,Big Data Steering Group (BDSG): 2023 report
+29. January 2024,International Society for Pharmaceutical Engineering (ISPE),Guidance,Recombinant AAV Comparability & Lifecycle Management
+29. January 2024,International Society for Pharmaceutical Engineering (ISPE),Guidance,Allogeneic Cell Therapy
+29. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
+29. January 2024,Global Fund,Guidance,Q&A Quality Assurance Policy for Pharmaceutical Products and  Medical Devices (including IVDand Core Personal Protective Equipment
+29. January 2024,International Accreditation Forum (IAF),Guidance,(IAF MDN) Including Medical Device Risk Classifications
+29. January 2024,Organisation for Economic Co-operation and Development,Publication,Collective action for responsible AI in health
+29. January 2024,USA Food & Drug Administration FDA,SOPP 8101.1,Regulatory Meetings for Drugs and Biological Products
+29. January 2024,USA Food & Drug Administration FDA,Guidance,Characterization of Metallic Coatings and/or Calcium Phosphate Coatings on Orthopedic Devices
+29. January 2024,USA Food & Drug Administration FDA,Guidance,Conducting Remote Regulatory Assessments Q&A
+29. January 2024,USA Food & Drug Administration FDA,Guidance,Revising ANDA Labeling Following Revision of the RLD Labeling Guidance for Industry: Guidance for Industry
+29. January 2024,USA Food & Drug Administration FDA,Guidance,ANDA Submissions – Amendments and Requests for Final Approval to Tentatively Approved ANDAs: Guidance for Industry
+29. January 2024,USA Food & Drug Administration FDA,Guidance,CVM GFI #286 (VICH GL60) - Good Manufacturing Practice for Active Pharmaceutical Ingredients Used in Veterinary Medicinal Products
+29. January 2024,USA Food & Drug Administration FDA,Best Practices,Postmarketing Safety Surveillance of Human Drug and Biological Products; Final Document; Availability
+29. January 2024,USA Food & Drug Administration FDA,Update,ASCA-Accredited Testing Laboratories
+29. January 2024,USA Food & Drug Administration FDA,News,FDA's ISTAND Pilot Program accepts submission of first artificial intelligence-based and digital health technology for neuroscience
+29. January 2024,USA Food & Drug Administration FDA,Website,For Healthcare Professionals | FDA’s Examples of Drugs that Interact with CYP Enzymes and Transporter Systems
+22. January 2024,European Commission,Plan,Joint implementation and preparedness plan for Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)
+22. January 2024,European Commission,Data Act,Harmonised rules on fair access to and use of data 
+Overview: Language requirements for manufacturers of medical devices
+22. January 2024,European Medicines Agency,Report,Human medicines: highlights of 2023
+22. January 2024,European Medicines Agency,Report,Big Data Steering Group (BDSG): 2023 report
 22. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,"Reclassification of medical devices in direct contact with the heart, central circulatory and central nervous systems"
 22. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Reclassification of medical devices that administer medicines or biologicals by inhalation
 22. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Reclassification of medical devices that are substances to be introduced into the body or applied to and absorbed by the skin
 22. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Reclassification of spinal implantable medical devices
 22. January 2024," Therapeutic Goods Administration (TGA), Australia",Guidance,Reclassification of active medical devices with a diagnostic function
-22. January 2024, Egyptian Drug Authority,Guidance,Registration of Human Pharmaceutical Products
-22. January 2024, Egyptian Drug Authority,Draft Guidance,Examination of human use product files
-22. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
-22. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
-22. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
-22. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,MHRA launches new fees calculator
-22. January 2024, USA Food & Drug Administration FDA,Important Info,Final Rule to Amend the Mammography Quality Standards Act
-22. January 2024, USA Food & Drug Administration FDA,Pilot Program,Accelerate Development of Rare Disease Therapies
-22. January 2024, USA Food & Drug Administration FDA,Report,CDRH 2023 Annual Report
-22. January 2024, USA Food & Drug Administration FDA,Deadline,Advancing Real-World Evidence Program submission deadline
-22. January 2024, USA Food & Drug Administration FDA,Statement,FDA and CMS: Accurate and Reliable Diagnostic Tests
-22. January 2024, Swissmedic,Guidance,Document Authorisation according to Art. 14 para. 1 abis-quater TPA
-22. January 2024, Swissmedic,Guidance,Author. of immuno. veterinary medicinal prod. epizootic outbreak
-22. January 2024, Swissmedic,Guidance,Authorisation of human medicinal products under Art. 13 TPA
-22. January 2024, Swissmedic,Guidance,Fast-track authorisation procedure
-22. January 2024, Swissmedic,Guidance,Temporary authorisation of human medicinal products
-22. January 2024, Swissmedic,Guidance,Authorisation of human medicinal product known API
-15. January 2024, European Commission,Guidelines,Medical imaging studies and reports
-15. January 2024, European Commission,Dashboard,Study supporting the monitoring of availability of medical devices
-15. January 2024, European Medicines Agency,Meeting,Pharmacovigilance Risk Assessment Committee (PRAC)
-15. January 2024, Egyptian Drug Authority,Guidelines,Nuclear and Radiation Safety and Nuclear Pharmacy Practice
-15. January 2024, Egyptian Drug Authority,Updates,"Requirements of centers, bioequivalence and solubility studies"
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Standard,Implementation of medical devices future regime
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Exporting active UK substances for use in EEA and Northern Ireland
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Borderline products: how to tell if your product is a medicine
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Register medical devices to place on the market
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Labelling and packaging-Windsor Framework
-15. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Export Medical Devices
-15. January 2024, USA Food & Drug Administration FDA,News,Vaporized Hydrogen Peroxide for Medical Device Sterilization
-15. January 2024, USA Food & Drug Administration FDA,News,New Drug Therapy Approvals 2023
-15. January 2024, USA Food & Drug Administration FDA,News,New Webpage for Searching Pharmaceutical Quality Documents
-15. January 2024, USA Food & Drug Administration FDA,Guidance,510(k) Submissions for Devices Labeled as Sterile
-15. January 2024, USA Food & Drug Administration FDA,Guidance,Q5A(R2) Viral Safety Evaluation of Biotechnology Products
-15. January 2024, USA Food & Drug Administration FDA,Guidance,Requests for Reconsideration at the Division Level Under GDUFA
-15. January 2024, USA Food & Drug Administration FDA,Forms,Tools for Cosmetic Product Facility Registration and Product Listing
-15. January 2024, USA Food & Drug Administration FDA,SOPP,Administrative Processing of Original Biologics License Applications Report: CTTI and FDA share strategies “CTTI Report 2024”
-15. January 2024, USA Food & Drug Administration FDA,Report,Congressional Research Service – FDA Regulation of Medical Devices
-15. January 2024, USA Food & Drug Administration FDA,Report,CDER Annual Report 2023
-15. January 2024, USA Food & Drug Administration FDA,QMSR News,Medical Devices; Quality System Regulation Amendments
-15. January 2024, ISO (International Organization for Standardization),Standard,"ISO Update December 1, 2023 to January 1, 2024"
-15. January 2024, Swissmedic,Guidance,Application licence for medicinal products or TpP/GT/GMO
-15. January 2024, Swissmedic,Guidance,Verzicht Betriebsbewilligung Arzneimittel (inkl. Blut) /TpP/GT/GVO
-15. January 2024, Swissmedic,Form,"Applications for, discontinuation of an establishment licence"
-15. January 2024, Swissmedic,Announcement,Certification from the former notified body ECM (Aachen DE)
-15. January 2024, Ministry of Health Sciences Authority Singapore,Fees,Regulatory fee revision for health products
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Operational Information Sharing
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a traditional herbal registration (THR)
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a variation to your marketing authorisation
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,150-day assessment for national applications for
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Register a homeopathic medicine
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Unfettered Access Procedure for marketing authorisations approved in Northern Ireland
-8. January 2024, Medicines and Healthcare products Regulatory Agency,Guidance,Written Confirmations for export to EEA and Northern Ireland
-8. January 2024, Medicines and Healthcare products Regulatory Agency,News,International Recognition Procedure (IRP) goes live
-8. January 2024, Medicines and Healthcare products Regulatory Agency,News,The British Pharmacopoeia (BP) 2024 edition now legally effective
-8. January 2024, CDSCO India,News,Launching of National Single Window System (NSWS) Portal
-8. January 2024, USA Food & Drug Administration FDA,Letter to Industry,Medical Device Transition to Electronic Export Documents
-8. January 2024, USA Food & Drug Administration FDA,Update,ASCA-Accredited Testing Laboratories
-8. January 2024, Medical Device Authority Malaysia,Important Notice,Expiry of CAB Registration for Newera International
-8. January 2024, Swissmedic,Guidance,Swiss Single Registration Number – CHRN
-8. January 2024, Swissmedic,Guidance,Export Certificates
-8. January 2024, Swissmedic,Guidance,Terms of Reference - Round Table on Medical Technology
-8. January 2024, Swissmedic,Guidance,Organisatiion Regulations: Organisationsreglement Swissmedic
-8. January 2024, Swissmedic,Directory,Overview of documents to be submitted
-8. January 2024, Swissmedic,Directory,List countries with comparable control of human medicinal products
-8. January 2024, Swissmedic,Guidance,Packaging for human medicinal products
-8. January 2024, Swissmedic,Form,New authorisation of human medicinal products
-8. January 2024, Swissmedic,Guidance,Guidance document Authorisation of Asian medicinal products)
-8. January 2024, Swissmedic,Form,Import of a human medicinal product(parallel import)
-8. January 2024, Swissmedic,Guidance,Import of a human medicinal product (parallel import)
-8. January 2024, Saudi Food & Drug Authority,Guidance,Requirements for Clinical Trials of Medical Devices
-8. January 2024, Department of Health The Government of the Hong Kong,Technical Reference,Artificial Intelligence Medical Devices (AI-MD)
+22. January 2024,Egyptian Drug Authority,Guidance,Registration of Human Pharmaceutical Products
+22. January 2024,Egyptian Drug Authority,Draft Guidance,Examination of human use product files
+22. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Notify the MHRA about a clinical investigation for a medical device
+22. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Medical devices: UK approved bodies
+22. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
+22. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,MHRA launches new fees calculator
+22. January 2024,USA Food & Drug Administration FDA,Important Info,Final Rule to Amend the Mammography Quality Standards Act
+22. January 2024,USA Food & Drug Administration FDA,Pilot Program,Accelerate Development of Rare Disease Therapies
+22. January 2024,USA Food & Drug Administration FDA,Report,CDRH 2023 Annual Report
+22. January 2024,USA Food & Drug Administration FDA,Deadline,Advancing Real-World Evidence Program submission deadline
+22. January 2024,USA Food & Drug Administration FDA,Statement,FDA and CMS: Accurate and Reliable Diagnostic Tests
+22. January 2024,Swissmedic,Guidance,Document Authorisation according to Art. 14 para. 1 abis-quater TPA
+22. January 2024,Swissmedic,Guidance,Author. of immuno. veterinary medicinal prod. epizootic outbreak
+22. January 2024,Swissmedic,Guidance,Authorisation of human medicinal products under Art. 13 TPA
+22. January 2024,Swissmedic,Guidance,Fast-track authorisation procedure
+22. January 2024,Swissmedic,Guidance,Temporary authorisation of human medicinal products
+22. January 2024,Swissmedic,Guidance,Authorisation of human medicinal product known API
+15. January 2024,European Commission,Guidelines,Medical imaging studies and reports
+15. January 2024,European Commission,Dashboard,Study supporting the monitoring of availability of medical devices
+15. January 2024,European Medicines Agency,Meeting,Pharmacovigilance Risk Assessment Committee (PRAC)
+15. January 2024,Egyptian Drug Authority,Guidelines,Nuclear and Radiation Safety and Nuclear Pharmacy Practice
+15. January 2024,Egyptian Drug Authority,Updates,"Requirements of centers, bioequivalence and solubility studies"
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Standard,Implementation of medical devices future regime
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Exporting active UK substances for use in EEA and Northern Ireland
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Borderline products: how to tell if your product is a medicine
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Register medical devices to place on the market
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Labelling and packaging-Windsor Framework
+15. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Export Medical Devices
+15. January 2024,USA Food & Drug Administration FDA,News,Vaporized Hydrogen Peroxide for Medical Device Sterilization
+15. January 2024,USA Food & Drug Administration FDA,News,New Drug Therapy Approvals 2023
+15. January 2024,USA Food & Drug Administration FDA,News,New Webpage for Searching Pharmaceutical Quality Documents
+15. January 2024,USA Food & Drug Administration FDA,Guidance,510(k) Submissions for Devices Labeled as Sterile
+15. January 2024,USA Food & Drug Administration FDA,Guidance,Q5A(R2) Viral Safety Evaluation of Biotechnology Products
+15. January 2024,USA Food & Drug Administration FDA,Guidance,Requests for Reconsideration at the Division Level Under GDUFA
+15. January 2024,USA Food & Drug Administration FDA,Forms,Tools for Cosmetic Product Facility Registration and Product Listing
+15. January 2024,USA Food & Drug Administration FDA,SOPP,Administrative Processing of Original Biologics License Applications Report: CTTI and FDA share strategies “CTTI Report 2024”
+15. January 2024,USA Food & Drug Administration FDA,Report,Congressional Research Service – FDA Regulation of Medical Devices
+15. January 2024,USA Food & Drug Administration FDA,Report,CDER Annual Report 2023
+15. January 2024,USA Food & Drug Administration FDA,QMSR News,Medical Devices; Quality System Regulation Amendments
+15. January 2024,ISO (International Organization for Standardization),Standard,"ISO Update December 1, 2023 to January 1, 2024"
+15. January 2024,Swissmedic,Guidance,Application licence for medicinal products or TpP/GT/GMO
+15. January 2024,Swissmedic,Guidance,Verzicht Betriebsbewilligung Arzneimittel (inkl. Blut) /TpP/GT/GVO
+15. January 2024,Swissmedic,Form,"Applications for, discontinuation of an establishment licence"
+15. January 2024,Swissmedic,Announcement,Certification from the former notified body ECM (Aachen DE)
+15. January 2024,Ministry of Health Sciences Authority Singapore,Fees,Regulatory fee revision for health products
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Operational Information Sharing
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a traditional herbal registration (THR)
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a variation to your marketing authorisation
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Apply for a licence to market a medicine in the UK
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,150-day assessment for national applications for
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Register a homeopathic medicine
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Unfettered Access Procedure for marketing authorisations approved in Northern Ireland
+8. January 2024,Medicines and Healthcare products Regulatory Agency,Guidance,Written Confirmations for export to EEA and Northern Ireland
+8. January 2024,Medicines and Healthcare products Regulatory Agency,News,International Recognition Procedure (IRP) goes live
+8. January 2024,Medicines and Healthcare products Regulatory Agency,News,The British Pharmacopoeia (BP) 2024 edition now legally effective
+8. January 2024,CDSCO India,News,Launching of National Single Window System (NSWS) Portal
+8. January 2024,USA Food & Drug Administration FDA,Letter to Industry,Medical Device Transition to Electronic Export Documents
+8. January 2024,USA Food & Drug Administration FDA,Update,ASCA-Accredited Testing Laboratories
+8. January 2024,Medical Device Authority Malaysia,Important Notice,Expiry of CAB Registration for Newera International
+8. January 2024,Swissmedic,Guidance,Swiss Single Registration Number – CHRN
+8. January 2024,Swissmedic,Guidance,Export Certificates
+8. January 2024,Swissmedic,Guidance,Terms of Reference - Round Table on Medical Technology
+8. January 2024,Swissmedic,Guidance,Organisatiion Regulations: Organisationsreglement Swissmedic
+8. January 2024,Swissmedic,Directory,Overview of documents to be submitted
+8. January 2024,Swissmedic,Directory,List countries with comparable control of human medicinal products
+8. January 2024,Swissmedic,Guidance,Packaging for human medicinal products
+8. January 2024,Swissmedic,Form,New authorisation of human medicinal products
+8. January 2024,Swissmedic,Guidance,Guidance document Authorisation of Asian medicinal products)
+8. January 2024,Swissmedic,Form,Import of a human medicinal product(parallel import)
+8. January 2024,Swissmedic,Guidance,Import of a human medicinal product (parallel import)
+8. January 2024,Saudi Food & Drug Authority,Guidance,Requirements for Clinical Trials of Medical Devices
+8. January 2024,Department of Health The Government of the Hong Kong,Technical Reference,Artificial Intelligence Medical Devices (AI-MD)
