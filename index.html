@@ -17,11 +17,35 @@
             padding: 0;
             box-sizing: border-box;
         }
+       
+        .banner {
+        display: flex; /* Enables Flexbox layout */
+        align-items: center; /* Vertically centers content */
+        justify-content: left; /* Aligns content to the left */
+        background-color: white;
+    	padding: 0;
+    	font-size: 24px;
+    	font-weight: bold;
+    	color: red;
+    	margin: 0 auto 20px;
+    	width: 40%; /* Adjust as needed */
+    	height: 60px; /* Sets a fixed height */
+	}
+
+	.banner img {
+   	 height: 100%; /* Makes the flag match the banner's height */
+    	margin-right: 10px; /* Adds space between the flag and text */
+	}
+
+        .banner-text {
+        flex-grow: 1; /* Ensures text takes up remaining space */
+        text-align: center; /* Horizontally centers the text */
+        }
         
-        .container {
-            padding: 0px;
-            margin: 10px;
-            text-align: center;
+	.container {
+        padding: 0px;
+        margin: 10px;
+        text-align: center;
         }
     
         .table-container {
@@ -159,6 +183,10 @@
 <body style="background-color: black;">
 
 <div class="container">
+	<div class="banner">
+    	<img src="Swissflag.png" alt="Swiss Flag">
+    	<div class="banner-text">REGULATORY ROUNDUP</div>
+	</div>
         <div class="main-title"><span>MedTech </span><span class="blue">Leading</span> <span>Voice</span></div>
         <h1 style="color: white;">Regulatory Roundup Index Search Engine</h1>   
     </div>
