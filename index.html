@@ -19,7 +19,8 @@
         }
         
         .container {
-            padding: 20px;
+            padding: 0px;
+            margin: 10px;
             text-align: center;
         }
     
@@ -90,11 +91,26 @@
             line-height: 1.2em;
         }
 
-        h1 {
+        .main-title span {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0px;
+            color: #FBBB6A;
+        }
+
+        .main-title span.blue {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0px;
+            color: #0778AB;
+        }
+     
+
+     h1 {
             font-size: 24px;
             font-weight: bold;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 0px;
         }
 
         /* Media Query for smaller screens */
@@ -143,8 +159,9 @@
 <body style="background-color: black;">
 
 <div class="container">
-    <img src="Regulatory%20Roundup%20Dashboard%20Index%20of%20Indexes%202024.png" alt="Centered Image" style="max-width: 100%; height: auto;">
-    <h1 style="color: white;">Index Search Engine 2024: MedTech Leading Voice Regulatory Roundup</h1>
+        <div class="main-title"><span>MedTech </span><span class="blue">Leading</span> <span>Voice</span></div>
+        <h1 style="color: white;">Regulatory Roundup Index Search Engine</h1>   
+    </div>
 
     <div class="table-container">
         <table id="csvTable">
