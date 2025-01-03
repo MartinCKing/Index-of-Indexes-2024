@@ -282,7 +282,7 @@
             })
             .catch(error => console.error('Error loading URL.csv:', error));
         
-        fetch('https://martincking.github.io/Index-of-Indexes-2024/Index of Indexes 2024.csv')
+        fetch('https://martincking.github.io/Index-of-Indexes-2024/Index of Indexes.csv')
             .then(response => response.text())
             .then(data => {
                 Papa.parse(data, {
